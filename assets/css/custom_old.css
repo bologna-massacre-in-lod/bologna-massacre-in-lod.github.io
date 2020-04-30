@@ -1,0 +1,29 @@
+.myNav a, li{
+    text-decoration: none;
+    list-style: none;
+    border-bottom: none;
+    display: inline-block;
+}
+
+.myNav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 5px;
+    background: #fff;
+    transition: width .3s;
+}
+
+.myNav a:hover::after {
+    width: 100%;
+    /* transition: width .3s; */
+}
+
+.myNav ul{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    margin-right: 1rem;
+    line-height: 3rem;
+}
