@@ -3776,6 +3776,11 @@ input, select, textarea {
 				justify-content: center;
 			}
 
+				#cta .inner header {
+					padding-right: 0;
+					width: 100%;
+				}
+
 				#cta .inner .actions {
 					margin-left: auto;
 					margin-right: auto;
