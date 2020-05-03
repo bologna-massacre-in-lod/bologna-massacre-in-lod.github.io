@@ -2391,6 +2391,7 @@ input, select, textarea {
 
 			table.alt thead {
 				border-bottom: 0;
+				border-collapse: separate;
 			}
 
 			table.alt tfoot {
@@ -2928,6 +2929,7 @@ input, select, textarea {
 
 			.wrapper.style1 table th {
 				color: #ffffff;
+
 			}
 
 			.wrapper.style1 table thead {
