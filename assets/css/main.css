@@ -4031,3 +4031,8 @@ li.dropdown {
 }
 
 
+ /*not-table per visualizzare rdf*/
+.not-table {
+	background-color: #fff;
+	color: #fff;
+}
