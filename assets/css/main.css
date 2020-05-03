@@ -2347,7 +2347,10 @@ input, select, textarea {
 			border-right: 0;
 		}
 
-
+			table tbody tr:nth-child(2n + 1) {
+				background-color: rgba(144, 144, 144, 0.25);
+			}
+			
 		table td {
 			padding: 0.75em 0.75em;
 		}
