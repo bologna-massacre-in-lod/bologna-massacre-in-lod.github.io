@@ -2356,12 +2356,11 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #fff;
 			font-size: 0.9em;
 			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
-			border: solid 1px #fff;
+			border: solid 1px;
 		}
 
 		table thead {
