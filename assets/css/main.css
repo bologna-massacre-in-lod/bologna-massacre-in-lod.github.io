@@ -2373,6 +2373,7 @@ input, select, textarea {
 
 		table.alt {
 			border-collapse: separate;
+			border: solid 1px #fff;
 		}
 
 			table.alt tbody tr td {
@@ -2391,7 +2392,6 @@ input, select, textarea {
 
 			table.alt thead {
 				border-bottom: 0;
-				border-collapse: separate;
 			}
 
 			table.alt tfoot {
