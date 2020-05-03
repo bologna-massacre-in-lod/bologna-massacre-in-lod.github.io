@@ -2357,10 +2357,11 @@ input, select, textarea {
 
 		table th {
 			color: #fff;
-			font-size: 2em;
+			font-size: 0.9em;
 			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
+			border: solid 1px #fff;
 		}
 
 		table thead {
@@ -2375,7 +2376,6 @@ input, select, textarea {
 			border-collapse: separate;
 		}
 
-		table.alt tr th
 
 			table.alt tbody tr td {
 				border: solid 1px #fff;
