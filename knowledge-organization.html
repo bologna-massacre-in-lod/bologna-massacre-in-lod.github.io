@@ -5,8 +5,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-		<head>
-		<title>Knowledge Organization</title>
+	<head>
+		<title>Link open data</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,44 +19,48 @@
 			<div id="page-wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						<!-- <h1><a href="index.html">Spectral</a></h1> 
+					<!-- <header id="header" class="alt">
+						<h1><a href="index.html">Spectral</a></h1> 
 						<nav id="nav"> 
 							<ul>
 								<li class="special">
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
-										</ul>
+										
+											<a href="index.html">Home</a>
+											<a href="generic.html">Generic</a>
+											<a href="elements.html">Elements</a>
+											<a href="#">Sign Up</a>
+											<a href="#">Log In</a>
+										
 									</div>
 								</li>
 							</ul>
-						</nav> --->
+						</nav> 
+					</header> -->
 
-						<h1><a href="index.html">HOME</a></h1> 
-						<div class='myNav'>
+
+					<header id="header" class="alt" style="background-color: red;">
+					  
+						<div class='myNav' id="NavigationBar">
 							<ul>
-								<li class="dropdown"><a href="domain.html" class="dropbtn">Domain</a>
+								<li><a href="" class="about">Home</a></li>
+								<li class="dropdown"><a href="index.html" class="dropbtn">Domain</a>
 									<div class="dropdown-content">
               							<a>Idea</a>
               							<a>Items</a>
               						</div>
 								</li>
-								<li class="dropdown"><a href="knowledge-organization.html" class="dropbtn">Knowledge organization</a>
+								<li class="dropdown"><a href="generic.html" class="dropbtn">Knowledge organization</a>
 								<div class="dropdown-content">
               							<a>E/R Model</a>
-              							<a>Metadata Standards</a>
-              							<a>Metedata Alignment</a>
+              							<a>Metadata Starndards</a>
+              							<a>Metedata Alignement</a>
               							<a>Theoretical Model</a>
               							<a>Conceptual Model</a>
             						</div>
             					</li>
-								<li class="dropdown"><a href="knowledge-representation.html" class="dropbtn">Knowledge representation</a>
+								<li class="dropdown"><a href="elements.html" class="dropbtn">Knowledge representation</a>
 									<div class="dropdown-content">
               							<a>Data Description</a>
               							<a>RDF</a>
@@ -65,10 +69,12 @@
 								</li>
 								<li><a href="" class="about">About</a></li>
 							</ul>
-						</div> 
-					</header>
+						</div>
+					</header> 
+					
 					<script type="text/javascript">
 						if (window.innerWidth < 400){
+						
 							var newHTML = "<h1><a href='index.html'>HOME</a></h1> ";
 									newHTML += "<nav id='nav'>";
 									newHTML += "<ul id='nav'>";
@@ -89,16 +95,315 @@
 						}	
 					</script>	
 
+					<!--<section id="banner">
+						<div class="inner">
+							<h2>BOLOGNA MASSACRE</h2>
+							<p>Link Open Data</p>
+							<ul class="actions special">
+								<li><a href="#" class="button primary">non serve</a></li> 
+							</ul>
+						</div>
+						<a href="#one" class="more scrolly">Learn More</a>
+					</section> --->
+					
+					<article id="main">
+						<header>
+							<h2>Generic Page</h2>
+							<p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+						</header>
+					
+						<section class="wrapper style5" id="er">
+							<div class="inner">
 
-				<!-- Footer -->
+								<img src="images/er1.png">
+								<hr>
+								<img src="images/er2.jpg">
+							</div>
+						
+						<div id="metadata-standards">
+							<p>TROVARE TABELLA</p>
+						</div>
+				
+						<div id="metadata alignement">
+								<h1>Metadata Aligment</h1>
+
+    
+	    <table id="tab">
+	  <tr>
+	    <th>Property </th>
+	    <th>Pico A.P.</th>
+	    <th>Mets San</th>
+	    <th>EAD</th>
+    <th>ISBD</th>
+    <th>MMD</th>
+    <th>EDUcore</th>
+    <th>FRBR</th>
+    <th>VRAcore</th>
+    <th>Reicat</th>
+    <th>PRISM</th>
+  </tr>
+  <tr>
+    <td>Who is the creator of the item?</td>
+    <td>pico:author</td>
+    <td> mets:agent </td>
+    <td> creator, author </td>
+    <td> 1.4 Statement of responsibility </td>
+    <td> name,sort-name </td>
+    <td> ebucore:entity </td>
+    <td> has statement of responsibility </td>
+    <td> agentSet, agent </td>
+    <td> 14.2.2 Responsabilità d’autore </td>
+    <td> dc:creator </td>
+  </tr>
+
+  <tr>
+    <td>Who is the responsible of the distribution of the item? </td>
+    <td> dc:publisher </td>
+    <td>-</td>
+    <td> publisher </td>
+    <td> 4.2 Name of publisher, producer and/or distributor </td>
+    <td> label-info </td>
+    <td> ebucore:entity </td>
+    <td> has publisher or distributor </td>
+    <td> sourceSet </td>
+    <td> 4.4.2. Nome dell’editore, distributore, libraio, etc., 19. Responsabilità per la pubblicazione e la produzione materiale </td>
+    <td> prism:distributor, dc:publisher </td>
+  </tr>
+  
+  <tr>
+    <td>Who is the owner of the property rights?</td>
+    <td> dcterms:rightsHolder </td>
+    <td> metsrights:RightsHolderName </td>
+    <td> rightsdeclaration </td>
+    <td> - </td>
+    <td> label-info </td>
+    <td> ebucore:rights </td>
+    <td> - </td>
+    <td> rightsSet, rightsHolder </td>
+    <td> - </td>
+    <td> prism:corporateEntity, dc:rights </td>
+  </tr>
+</table>
+
+<table> 
+<h2> Date </h2>
+  <tr>
+    <th>Property </th>
+    <th>Pico A.P.</th>
+    <th>Mets San</th>
+    <th>EAD</th>
+    <th>ISBD</th>
+    <th>MMD</th>
+    <th>EDUcore</th>
+    <th>FRBR</th>
+    <th>VRAcore</th>
+    <th>Reicat</th>
+    <th>PRISM</th>
+  </tr>
+
+  <tr>
+    <td> When was the item created? </td>
+    <td> dc:identifier </td>
+    <td>  ead:unitdate </td>
+    <td> unitdate </td>
+    <td> 4.3 Date of publication, production and/or distribution </td>
+    <td> - </td>
+    <td> ebucore:date </td>
+    <td> has date of publication, production and/or distribution </td>
+    <td> dateSet,date type="creation" </td>
+    <td> - </td>
+    <td> prism:creationDate </td>
+  </tr> 
+
+  <tr>
+    <td> When was the item published? </td>
+    <td> dc:date </td>
+    <td> ead:date </td>
+    <td> date </td>
+    <td> 4.6 Date of printing or manufacture, 4.3 Date of publication, production and/or distribution </td>
+    <td> release-event, date </td>
+    <td> Publication date </td>
+    <td> has date of publication, production and/or distribution </td>
+    <td> dateSet, date type=”publication” </td>
+    <td> 4.4.1 luogo di pubblicazione o distribuzione </td>
+    <td> prism:copyrightYear, prism:coverDate, prism:coverDisplayDate, prism:publicationDate </td>
+  </tr>
+</table>
+
+<table>
+  <h2> Place </h2>
+  <tr>
+    <th>Property </th>
+    <th>Pico A.P.</th>
+    <th>Mets San</th>
+    <th>EAD</th>
+    <th>ISBD</th>
+    <th>MMD</th>
+    <th>EDUcore</th>
+    <th>FRBR</th>
+    <th>VRAcore</th>
+    <th>Reicat</th>
+    <th>PRISM</th>
+  </tr>
+
+  <tr>
+    <td> Where was the item published? </td>
+    <td> dcterms:isPartOf </td>
+    <td> ead:geogname </td>
+    <td> geogname </td>
+    <td> 4.1 Place of publication, production and/or distribution </td>
+    <td> name, country </td> 
+    <td> ebucore:location </td>
+    <td> has place of publication or distribution </td>
+    <td> locationSet, location type="publication" </td>
+    <td> 4.4.1 luogo di pubblicazione o distribuzione </td>
+    <td> - </td>
+  </tr>
+</table>
+
+<table> 
+ <h2> Subject </h2>
+  <tr>
+    <th>Property </th>
+    <th>Pico A.P.</th>
+    <th>Mets San</th>
+    <th>EAD</th>
+    <th>ISBD</th>
+    <th>MMD</th>
+    <th>EDUcore</th>
+    <th>FRBR</th>
+    <th>VRAcore</th>
+    <th>Reicat</th>
+    <th>PRISM</th>
+  </tr>
+
+  <tr>
+    <td> Title </td>
+    <td> dc:title </td>
+    <td> mods:title </td>
+    <td> unittitle </td>
+    <td> 1.1 Title proper </td>
+    <td> title </td>
+    <td> ebucore:title </td>
+    <td> has title of the manifestation </td>
+    <td> title, title type </td>
+    <td> 4.1.1. Titolo </td>
+    <td> dc:title </td>
+  </tr>
+   <tr>
+    <td> Description/Content </td>
+    <td> dc:description </td>
+    <td> ead:abstract </td>
+    <td> abstract </td>
+    <td> 7.7 Note on contents, 7.10.2 -Note providing a summary </td>
+    <td> - </td>
+    <td> ebucore:description </td>
+    <td> has summarization of content </td>
+    <td> descriptionSet </td>
+    <td> 4. Aree ed elementi della descrizione, 4.7.12. Note di riassunto </td>
+    <td> prism:contentType, dc:description, prism:teaser, prism:keyword </td>
+  </tr>
+
+  <tr>
+    <td> Format </td>
+    <td> pico:materialAndTechnique </td>
+    <td> ead:genreform type = “supporto” </td>
+    <td> unittype </td>
+    <td> 5.1.2 Specific material designation (physical object),5.2.2 Composition of material </td>
+    <td> packaging, format </td>
+    <td> ebucore:type </td>
+    <td> has form of carrier, has physical medium </td>
+    <td> material type=”support” </td>
+    <td> 7.4.1 caratteristiche del supporto, 1.3 Tipi di materiali </td>
+    <td> dc:format </td>
+  </tr>
+
+  <tr>
+    <td> Type </td>
+    <td> dc:type </td>
+    <td> ead:phystech </td>
+    <td> genreform </td>
+    <td> 0.1 Content form, 0.2 Media type </td>
+    <td> - </td>
+    <td> - </td>
+    <td> has form of carrier </td>
+    <td> worktype </td>
+    <td> 1.5 Tipi di pubblicazione </td>
+    <td> prism:contentType, dc:type </td>
+  </tr>
+
+  <tr> 
+    <td> Language </td>
+    <td> dc:language </td>
+    <td> ead:langmaterial </td>
+    <td> langmaterial </td>
+    <td> 7.1.2 Note on nature, scope, form, purpose or language </td>
+    <td> language </td>
+    <td> ebucore:language </td>
+    <td> has language of expression </td>
+    <td> inscription, text xml:lang="", inscription </td>
+    <td> 4.7.1.15. Note sulla lingua della pubblicazione o di sue componenti </td>
+    <td> dc:language </td>
+  </tr> 
+      
+
+  <tr>
+    <td> Identifier </td>
+    <td> dc:identifier </td>
+    <td> ead:unitid, mets:altRecordID TYPE="SAN" </td>
+    <td> unitid </td>
+    <td> 8.1 Resource identifier </td>
+    <td> barcode </td>
+    <td> ebucore:identifier </td>
+    <td> has manifestation, identifier </td>
+    <td> sourceSet </td>
+    <td> 4.8.2.3 altri codici indentificativi, 4.8. Area dei numeri identificativi </td>
+    <td> prism:doi, prism:isbn, prism:issn, prism:nationalCatalogNumber, dc:identifier </td>
+</tr>
+
+<tr>
+  <td> Size/Duration </td>
+  <td> dc-terms:extent </td>
+  <td> ead:extent </td>
+  <td> physdesc </td>
+  <td> 5.1 Extent </td>
+  <td> length </td>
+  <td> - </td>
+  <td> has extent of the carrier </td>
+  <td> measurementsSet </td>
+  <td> 4.5.3. Dimensioni </td>
+  <td> prism:byteCount </td>
+</tr>
+</table>
+
+</div>
+
+
+			
+					
+
+
+
+					</section>
+					</article>
+
+					
+
 					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
 						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Created by Gemma Centrone, Alessia Cioffi, Sara Coppini and Francesca Genovese for the final project of the course <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2019/424639">Knowledge Organization and Digital Methods in the Cultural Heritage Domain</a> inside the master degree <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge">Digital Humanities and Digital Knowledge</a> at the <a href="https://www.unibo.it/en/homepage">University of Bologna</a>.</li>
-							<li>Some photographs were kindly given by <a href="http://www.cinetecadibologna.it/en/">Fondazione Cineteca di Bologna</a>, which owns them.</li>
+							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</footer>
 
-			</div>	
+			
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -106,7 +411,6 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/main.js"></script>					
 	</body>
 </html>
