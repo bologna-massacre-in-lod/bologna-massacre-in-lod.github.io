@@ -3261,6 +3261,11 @@ input, select, textarea {
 			.wrapper.style5 table th {
 				color: #2E3842;
 				border-color: #dfdfdf;
+				border-right: 0;
+			}
+			.wrapper.style5 table th:last-child{
+				color: #2E3842;
+				border-color: #dfdfdf;
 			}
 
 			.wrapper.style5 table thead {
