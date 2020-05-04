@@ -3386,6 +3386,11 @@ input, select, textarea {
 
 			.wrapper.style6 table.alt tbody tr td {
 				border-color: #dfdfdf;
+				background-color: #ffffff;
+			}
+
+			.wrapper.style6 table tbody tr:nth-child(2n + 1) {
+				background-color: #ffffff;
 			}
 
 			.wrapper.style6 input[type="submit"],
