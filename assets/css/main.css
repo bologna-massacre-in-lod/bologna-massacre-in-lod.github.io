@@ -3313,6 +3313,113 @@ input, select, textarea {
 
 			}
 
+		.wrapper.style6 {
+			background-color: #ffffff;
+			color: #4E4852;
+		}
+
+			.wrapper.style6 strong, .wrapper.style6 b {
+				color: #2E3842;
+			}
+
+			.wrapper.style6 h2, .wrapper.style6 h3, .wrapper.style6 h4, .wrapper.style6 h5, .wrapper.style6 h6 {
+				color: #2E3842;
+			}
+
+			.wrapper.style6 hr {
+				border-color: #dfdfdf;
+			}
+
+			.wrapper.style6 code {
+				background: rgba(0, 0, 0, 0.0375);
+			}
+
+			.wrapper.style6 header p {
+				color: #8E8892;
+			}
+
+			.wrapper.style6 header.major h2, .wrapper.style6 header.major h3, .wrapper.style6 header.major h4, .wrapper.style6 header.major h5, .wrapper.style5 header.major h6 {
+				border-color: #dfdfdf;
+			}
+
+			.wrapper.style6 header.major p {
+				color: #4E4852;
+			}
+
+			.wrapper.style6 label {
+				color: #2E3842;
+			}
+
+			.wrapper.style6 ::-webkit-input-placeholder {
+				color: #8E8892 !important;
+			}
+
+			.wrapper.style6 :-moz-placeholder {
+				color: #8E8892 !important;
+			}
+
+			.wrapper.style6 ::-moz-placeholder {
+				color: #8E8892 !important;
+			}
+
+			.wrapper.style6 :-ms-input-placeholder {
+				color: #8E8892 !important;
+			}
+
+			.wrapper.style6 .formerize-placeholder {
+				color: #8E8892 !important;
+			}
+
+			.wrapper.style6 .icon.major {
+				border-color: #dfdfdf;
+			}
+
+			.wrapper.style6 ul.alt li {
+				border-color: #dfdfdf;
+			}
+
+			.wrapper.style6 table tfoot {
+				border-color: #dfdfdf;
+			}
+
+			.wrapper.style6 table.alt tbody tr td {
+				border-color: #dfdfdf;
+			}
+
+			.wrapper.style6 input[type="submit"],
+			.wrapper.style6 input[type="reset"],
+			.wrapper.style6 input[type="button"],
+			.wrapper.style6 button,
+			.wrapper.style6 .button {
+				box-shadow: inset 0 0 0 2px #dfdfdf;
+				color: #2E3842;
+			}
+
+				.wrapper.style6 input[type="submit"]:hover,
+				.wrapper.style6 input[type="reset"]:hover,
+				.wrapper.style6 input[type="button"]:hover,
+				.wrapper.style6 button:hover,
+				.wrapper.style6 .button:hover {
+					background-color: rgba(0, 0, 0, 0.0375);
+				}
+
+				.wrapper.style6 input[type="submit"]:active,
+				.wrapper.style6 input[type="reset"]:active,
+				.wrapper.style6 input[type="button"]:active,
+				.wrapper.style6 button:active,
+				.wrapper.style6 .button:active {
+					background-color: rgba(0, 0, 0, 0.1);
+				}
+
+			@media screen and (max-width: 736px) {
+
+				.wrapper.style6 .features li {
+					border-top-color: #dfdfdf;
+				}
+
+			}
+
+
 		@media screen and (max-width: 980px) {
 
 			.wrapper {
@@ -4034,11 +4141,4 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-
- /*not-table per visualizzare rdf*/
-.wrapper.style5.not-table {
-	background-color: #fff !important;
-	color: #fff;
 }
