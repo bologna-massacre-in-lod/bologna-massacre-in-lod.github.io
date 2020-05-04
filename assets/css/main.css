@@ -3259,13 +3259,13 @@ input, select, textarea {
 			}
 
 			.wrapper.style5 table th {
+				border: 1px;
 				color: #2E3842;
 				border-color: #dfdfdf;
-				border-right: 0;
+				border-left: 0;
 			}
-			.wrapper.style5 table th:last-child{
-				color: #2E3842;
-				border-color: #dfdfdf;
+			.wrapper.style5 table thead:first-child{
+				border: 1px;
 			}
 
 			.wrapper.style5 table thead {
