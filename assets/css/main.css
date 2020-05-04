@@ -2356,11 +2356,11 @@ input, select, textarea {
 		}
 
 		table th {
+			color: #fff;
 			font-size: 0.9em;
 			font-weight: 600;
 			padding: 0.75em 0.75em 0.75em 0.75em;
 			text-align: left;
-			border: solid 1px;
 		}
 
 		table thead {
@@ -2382,7 +2382,16 @@ input, select, textarea {
 				border-top-width: 0;
 			}
 
+			table.alt tbody tr th {
+				border: solid 1px #dfdfdf;
+				border-left-width: 0;
+			}
+
 				table.alt tbody tr td:first-child {
+					border-left-width: 1px;
+				}
+
+				table.alt tbody tr th:first-child {
 					border-left-width: 1px;
 				}
 
@@ -2391,10 +2400,7 @@ input, select, textarea {
 			}
 
 			table.alt thead {
-				border-bottom: 0;
 				border: solid 1px #fff;
-				border-left-width: 0;
-				border-top-width: 0;
 			}
 
 			table.alt tfoot {
@@ -3259,13 +3265,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style5 table th {
-				border: 1px;
 				color: #2E3842;
-				border-color: #dfdfdf;
-				border-left: 0;
-			}
-			.wrapper.style5 table thead:first-child{
-				border: 1px;
 			}
 
 			.wrapper.style5 table thead {
