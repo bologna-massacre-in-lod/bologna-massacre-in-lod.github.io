@@ -47,8 +47,8 @@
 								<li><a href="index.html" class="home">Home</a></li>
 								<li class="dropdown"><a href="index.html" class="dropbtn">Domain</a>
 									<div class="dropdown-content">
-              							<a href="domain.html#idea">Idea</a>
-              							<a href="domain.html#items">Items</a>
+              							<a>Idea</a>
+              							<a>Items</a>
               						</div>
 								</li>
 								<li class="dropdown"><a href="generic.html" class="dropbtn">Knowledge organization</a>
@@ -103,8 +103,22 @@
 
 	<section class="wrapper style5">
 		<div class="inner">
+			
+			<h3>ER MODEL</h3>
+			
+			<button id="myBut" onclick="cambiaFoto1(2)">Click to see second ER Model</button>
 
-			<h3><a id="data">METADATA STARNDARDS</a></h3>
+				<div id="" style="text-align: center;">
+				<img id="myImg" src="images/er1.png"> 
+				</div>
+		
+			<hr>
+			<h2>METADATA STARNDARDS</h2>
+			<p>non trovo la tabella</p>
+
+			<hr>
+
+			<h3><a id="data">METADATA ALIGNEMENT</a></h3>
 				<p>descrizione</p>
 
 				<!-- tabelle del data -->
@@ -2087,6 +2101,19 @@
 				    </tr>
 				</table>
 
+				<hr>
+
+	<h2>THEORETICAL MODEL</h2>
+
+	<button id="myBut2" onclick="cambiaFoto2(2)">See second Theoretical Model</button>
+
+				<div id="" style="text-align: center;">
+				<img id="myImg2" src="images/theoretical1.0.png"> 
+				</div>
+
+				<hr>
+	<h2>CONCEPUTAL MODEL</h2>
+	<img class="box_img" src="images/conceptual.1.png">
 
 		</div>
 	</section> <!-- chiudo la sezione 5 -->
@@ -2099,5 +2126,54 @@
 						</ul>
 					</footer>
 		</div>
+
+
+<script>
+        function cambiaFoto1(id) {
+            if (id == 1){
+                
+                document.getElementById("myImg").src = "images/er1.png";
+                //cambio la funzione del bottone e il testo dentro al bottone
+                document.getElementById("myBut").onclick = function(){cambiaFoto1(2)};
+                document.getElementById('myBut').innerHTML = "Click to see second ER Model";
+            }else if (id == 2){
+                //stesso concetto per l'altra foto
+                document.getElementById("myImg").src = "images/er2.0.jpg";
+                document.getElementById("myBut").onclick = function(){cambiaFoto1(1)};
+                document.getElementById('myBut').innerHTML = "Click to see first ER Model";
+
+            }
+        }
+
+        
+    </script>
+
+<script>
+        function cambiaFoto2(id) {
+            if (id == 1){
+                
+                document.getElementById("myImg2").src = "images/theoretical1.0.png";
+                //cambio la funzione del bottone e il testo dentro al bottone
+                document.getElementById("myBut2").onclick = function(){cambiaFoto2(2)};
+                document.getElementById('myBut2').innerHTML = "Second Theoretical Model";
+            }else if (id == 2){
+                //stesso concetto per l'altra foto
+                document.getElementById("myImg2").src = "images/theoretical2.0.jpg";
+                document.getElementById("myBut2").onclick = function(){cambiaFoto2(1)};
+                document.getElementById('myBut2').innerHTML = "First Theoretical Model";
+
+            }
+        }
+
+        
+    </script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>	
+
 </body>
 </html>
