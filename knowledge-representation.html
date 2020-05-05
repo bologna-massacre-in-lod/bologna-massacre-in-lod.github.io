@@ -61,7 +61,8 @@
 							<div class="inner">
 
 								<h3><a id="data">Data description</a></h3>
-								<p>descrizione</p>
+								<p>In the description of data, we have made a selection of the entities, objects and their relations to be represented according to the conceptual model: we have chosen the most representative of our idea and our project. It is the event, its four entities (place, time, concept and person) and four significant items for each entity, keeping separate the descriptions of the entities from those of the objects we have considered.</p>
+								<p>As a type of representation, we chose the tables and the natural language. The first because they are an intermediate data structure between a visual representation such as the graph of the conceptual model and the organization in triples of the RDF (the three columns correspond to the subject, the predicate and the object). And the natural language to describe subjects and objects of the triples seemed to us the best choice for a double reason: first, as an intermediate passage between the formal language of ontologies and the specific lexicon of the RDF; secondly, to move from the generality of classes and properties of ontologies to the specificity of the URIs and literals of the RDF.</p>
 
 								<!-- tabelle del data -->
 								<div class="table-wrapper">
@@ -467,7 +468,12 @@
 						<section class="wrapper style6">
 							<div class="inner">
 								<h4><a id="rdf">RDF</a></h4>
-								<p>Due righe pure sull'RDF + metti bottone per scaricare file?</p>
+								<p>For the rdf description representation of data, we have chosen those entities and items that were suitable for creating relevant interconnections, representative of the event itself: the photograph, the event, the concept, the movie, a person, the judgment and the association.</p>
+								<p>This choice has allowed us to build an RDF in which the objects of the triples become in turn subjects, enhancing the links within our knowledge model, then recovering the relationships between items and entities already prefigured in the conceptual model and in the data description.</p>
+								<p>As serialization of RDF we chose Turtle for its clarity, thus for its support for namespace prefixes and its way to abbreviate information related to triples, for example by factoring out common portions of the URIs.</p>
+								<p style="color: red;">+ accenni al tipo di collegamenti del soggeto con external resources: con che ontologie le abbiamo espressi e che tipo di oggetti abbiamo in questi collegamenti. Magari distinguire che abbiamo creato (mint) noi gli URIs per i nostri items e le nostre entità (cioè i soggetti delle nostre triple) = gli oggetti e le entità appartenenti al nstro dominio, mentre per gli altri oggetti delle triple gli URIs li abbiamo riutilizzati.</p>
+								<p style="color: red;">Finally, we provided also a visual representation of the RDF graphs in directed-arc diagrams (in which each triple is represented as a node-arc-node link).</p>
+
 								<ul class="actions">
 									<li><a href="rdf.ttl" class="button icon solid fa-download">Download</a></li>
 								</ul>
