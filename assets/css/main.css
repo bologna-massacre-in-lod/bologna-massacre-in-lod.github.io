@@ -2414,6 +2414,16 @@ input, select, textarea {
 				border-top: 0;
 			}
 
+		table.align tr th {
+			border: solid 1px #dfdfdf;
+			vertical-align: middle;
+		}
+
+		table.align tr td {
+			border-top: solid 1px #dfdfdf;
+			border-right: solid 1px #dfdfdf;
+		}
+
 /* Button */
 
 	input[type="submit"],
