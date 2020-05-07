@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+<!--
+  Spectral by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Link open data</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  </head>
+  <body class="landing is-preload">
+
+    <!-- Page Wrapper -->
+      <div id="page-wrapper">
+
+        <!-- Header -->
+          <!-- <header id="header" class="alt">
+            <h1><a href="index.html">Spectral</a></h1> 
+            <nav id="nav"> 
+              <ul>
+                <li class="special">
+                  <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                  <div id="menu">
+                    
+                      <a href="index.html">Home</a>
+                      <a href="generic.html">Generic</a>
+                      <a href="elements.html">Elements</a>
+                      <a href="#">Sign Up</a>
+                      <a href="#">Log In</a>
+                    
+                  </div>
+                </li>
+              </ul>
+            </nav> 
+          </header> -->
+
+
+          <header id="header" class="alt" style="background-color: red;">
+            
+            <div class='myNav' id="NavigationBar">
+              <ul>
+                <li><a href="index.html" class="home">Home</a></li>
+                <li class="dropdown"><a href="index.html" class="dropbtn">Domain</a>
+                  <div class="dropdown-content">
+                            <a>Idea</a>
+                            <a>Items</a>
+                          </div>
+                </li>
+                <li class="dropdown"><a href="generic.html" class="dropbtn">Knowledge organization</a>
+                <div class="dropdown-content">
+                            <a>E/R Model</a>
+                            <a>Metadata Starndards</a>
+                            <a>Metedata Alignement</a>
+                            <a>Theoretical Model</a>
+                            <a>Conceptual Model</a>
+                        </div>
+                      </li>
+                <li class="dropdown"><a href="elements.html" class="dropbtn">Knowledge representation</a>
+                  <div class="dropdown-content">
+                            <a>Data Description</a>
+                            <a>RDF</a>
+                            
+                        </div>
+                </li>
+                <li><a href="" class="about">About</a></li>
+              </ul>
+            </div>
+          </header> 
+          
+          <script type="text/javascript">
+            if (window.innerWidth < 400){
+            
+              var newHTML = "<h1><a href='index.html'>HOME</a></h1> ";
+                  newHTML += "<nav id='nav'>";
+                  newHTML += "<ul id='nav'>";
+                  newHTML +=  "<li class='special'>";
+                    newHTML += "<a href='#menu' class='menuToggle'><span>Menu</span></a>";
+                    newHTML += "<div id='menu'>";                   
+                      newHTML += "<a href='index.html'>Home</a>";
+                      newHTML += "<a href='generic.html'>Generic</a>";
+                      newHTML += "<a href='elements.html'>Elements</a>";
+                      newHTML += "<a href='#'>Sign Up</a>";
+                      newHTML += "<a href='#'>Log In</a>";
+                    newHTML += "</div>";
+                  newHTML += "</li>";
+                newHTML += "</ul>";
+              newHTML += "</nav> ";
+            document.getElementById('header').innerHTML = newHTML;
+
+            } 
+          </script>
+  <!-- Main -->
+          <article id="main">
+            <header>
+              <h2>METADATA ANALYSIS</h2>
+              
+            </header>
+
+            <section class="wrapper style5">
+            <div class="inner">
+              <h2>METADATA ANALYSIS</h2>
+
+
+
+
+<table>
+  <tr>
+    <th> <h2> Item Name</h2> </th>
+    <th><h2>  Object Type</h2> </th>
+    <th> <h2>Institution </h2></th>
+    <th> <h2> Provider </h2></th>
+    <th><h2> Metadata Standard </h2></th>
+  </tr>
+  
+  <tr>
+    <td><h3>La strage della stazione Centrale,Bologna 1980</h3></td>
+    <td> Photo </td>
+    <td> Associazione tra i familiari delle vittime della strage alla stazione di Bologna </td>
+    <td> Sistema Archivistico Nazionale (ICAR) </td>
+    <td> VraCore <a href="https://www.loc.gov/standards/vracore/VRA_Core4_Element_Description.pdf"></a> </td>
+   </tr>
+
+  <tr>
+    <td><h3>La Strage di Bologna </h3></td>
+    <td> Comics </td>
+    <td> Comunale Minerbio/ Comunale Pieve di Cento </td>
+    <td> Catalogo del Polo Bolognese (SBN UBO) </td>
+    <td> PRISM </td>
+    
+  </tr>
+  
+  <tr>
+    <td><h3> Bologna due Agosto: I due giorni della collera </h3></td>
+    <td> Movie </td>
+    <td> Telecom planet film production (credits) </td>
+    <td> IMDb </td>
+    <td> EBU-core </td>
+  </tr>
+
+  <tr>
+    <td> <h3> Il giorno che il cielo cadde su Bologna </h3> </td>
+    <td> Song </td>
+    <td> Mescal, MCRecords </td>
+    <td> Musicbrainz </td>
+    <td> MMD </td>
+  </tr>
+
+  <tr>
+    <td> <h3> Il popolo li giudicherà dai fatti </h3> </td>
+    <td>  Clip  </td>
+    <td> Archivio Audiovisivo del Movimento Operaio e Democratico (Aamod) </td>
+    <td> Archivio Asamo (Archivio storico audiovisivo del movimento operaio)-Aamod (Archivio Audiovisivo del Movimento Operaio e Democratico) </td>
+    <td> EAD </td>
+  </tr>
+
+  <tr>
+    <td> <h3> Strage di Bologna del 2.8.1980: sentenza 23 Novembre 1995 </h3> </td>
+    <td>  Constitutional Judgment </td>
+    <td> Associazione tra i familiari delle vittime della strage alla stazione di Bologna </td>
+    <td> Catalogo del Polo Bolognese </td>
+    <td> REICAT </td>
+  </tr>
+
+  <tr>
+    <td> <h3> Strage di Bologna, telefonata di smentita a Radio Popolare da parte delle Br, 1980 </h3></td>
+    <td>Recording </td>
+    <td> Radio popolare spa </td>
+    <td> Sistema Archivistico Nazionale </td>
+    <td> METS-SAN </td>
+
+  </tr>
+
+  <tr>
+    <td> <h3> 2 agosto 1980-2 agosto 2005 - strage fascista alla stazione di Bologna - 85 morti e 200 feriti - i familiari delle vittime impediscono con le armi della verità e della giustizia la riscrittura della storia l'occultamento della verità sulle stragi la liquidazione della memoria </h3> </td>
+    <td> Stamp </td>
+    <td> Tipografia moderna </td>
+    <td> Catalogo del Polo Bolognese </td>
+    <td> FRBR </td>
+  </tr>
+
+  <tr> 
+    <td><h3> A mano armata: vita violenta di Giusva Fioravanti, terrorista neo-fascista quasi per caso</h3> </td>
+    <td> Biography </td>
+    <td> Storie della storia d’Italia </td>
+    <td> Catalogo del Polo Bolognese </td>
+    <td> ISBD </td>
+  </tr>
+
+  <tr>
+    <td> <h3>Dipinto </h3></td>
+    <td> Paiting </td>
+    <td> Palazzo Malvezzi de' Medici </td>
+    <td> Cultura Italiana </td>
+    <td> PICO A.P. </td>
+
+
+</tr>
+</table>
+
+</div>
+    </section>
+
+
+          <!-- Footer -->
+          <footer id="footer">
+            <ul class="copyright">
+              <li>&copy; Untitled</li><li>Created by Gemma Centrone, Alessia Cioffi, Sara Coppini and Francesca Genovese for the final project of the course <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2019/424639">Knowledge Organization and Digital Methods in the Cultural Heritage Domain</a> inside the master degree <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge">Digital Humanities and Digital Knowledge</a> at the <a href="https://www.unibo.it/en/homepage">University of Bologna</a>.</li>
+              <li>Some photographs were kindly given by <a href="http://www.cinetecadibologna.it/en/">Fondazione Cineteca di Bologna</a>, which owns them.</li>
+            </ul>
+          </footer>
+    </div>
+
+    <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.scrollex.min.js"></script>
+      <script src="assets/js/jquery.scrolly.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
