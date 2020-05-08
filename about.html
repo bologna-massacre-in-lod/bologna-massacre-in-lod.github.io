@@ -72,60 +72,59 @@
 
           <header id="header" class="alt" style="background-color: #041547;">
             <h1 style="opacity: 1;"><a href="index.html"> HOME</a></h1>
-            
-            <div class='myNav' id="NavigationBar">
-              <ul>
-                <li><a href="index.html" class="home">Home</a></li>
-                <li class="dropdown"><a href="index.html" class="dropbtn">Domain</a>
-                  <div class="dropdown-content">
-                            <a>Idea</a>
-                            <a>Items</a>
-                          </div>
-                </li>
-                <li class="dropdown"><a href="generic.html" class="dropbtn">Knowledge organization</a>
-                <div class="dropdown-content">
-                            <a>E/R Model</a>
-                            <a>Metadata Analysis</a>
-                            <a>Metedata Alignment</a>
-                            <a>Theoretical Model</a>
-                            <a>Conceptual Model</a>
-                        </div>
-                      </li>
-                <li class="dropdown"><a href="elements.html" class="dropbtn">Knowledge representation</a>
-                  <div class="dropdown-content">
-                            <a>Data Description</a>
-                            <a>RDF</a>
-                            
-                        </div>
-                </li>
-                <li><a href="" class="about">About</a></li>
-              </ul>
-            </div>
-          </header> 
-          
-          <script type="text/javascript">
-            if (window.innerWidth < 400){
-            
-              var newHTML = "<h1><a href='index.html'>HOME</a></h1> ";
-                  newHTML += "<nav id='nav'>";
-                  newHTML += "<ul id='nav'>";
-                  newHTML +=  "<li class='special'>";
-                    newHTML += "<a href='#menu' class='menuToggle'><span>Menu</span></a>";
-                    newHTML += "<div id='menu'>";                   
-                      newHTML += "<a href='index.html'>Home</a>";
-                      newHTML += "<a href='generic.html'>Generic</a>";
-                      newHTML += "<a href='elements.html'>Elements</a>";
-                      newHTML += "<a href='#'>Sign Up</a>";
-                      newHTML += "<a href='#'>Log In</a>";
-                    newHTML += "</div>";
-                  newHTML += "</li>";
-                newHTML += "</ul>";
-              newHTML += "</nav> ";
-            document.getElementById('header').innerHTML = newHTML;
+					  
+						<div class='myNav' id="NavigationBar">
+							<ul>
+								
+								<li class="dropdown"><a href="domain.html" class="dropbtn">Domain</a>
+									<div class="dropdown-content">
+              							<a href="domain.html#idea">Idea</a>
+              							<a href="domain.html#items">Items</a>
+              						</div>
+								</li>
+								<li class="dropdown"><a href="knowledge-organization.html" class="dropbtn">Knowledge organization</a>
+								<div class="dropdown-content">
+              							<a href="modello-er.html">E/R Model</a>
+              							<a href="metadata-analysis.html">Metadata Analysis</a>
+              							<a href="metadata-alignment.html">Metedata Alignment</a>
+              							<a href="theoretical_model.html">Theoretical Model</a>
+              							<a href="conceptual.html">Conceptual Model</a>
+            						</div>
+            					</li>
+								<li class="dropdown"><a href="knowledge-representation.html" class="dropbtn">Knowledge representation</a>
+									<div class="dropdown-content">
+              							<a href="knowledge-representation.html#data">Data Description</a>
+              							<a href="knowledge-representation.html#rdf">RDF</a>
+              							
+            						</div>
+								</li>
+								<li><a href="about.html" class="about">About</a></li>
+							</ul>
+						</div>
+					</header> 
+					
+					<script type="text/javascript">
+						if (window.innerWidth < 400){
+						
+							var newHTML = "<h1><a href='index.html'>HOME</a></h1> ";
+									newHTML += "<nav id='nav'>";
+									newHTML += "<ul id='nav'>";
+									newHTML += 	"<li class='special'>";
+										newHTML += "<a href='#menu' class='menuToggle'><span>Menu</span></a>";
+										newHTML += "<div id='menu'>";										
+											newHTML += "<a href='index.html'>Home</a>";
+											newHTML += "<a href='domain.html'>Domain</a>";
+											newHTML += "<a href='knowledge-organization.html'>Knowledge Organization</a>";
+											newHTML += "<a href='knowledge-representation.html'>Knowledge Representation</a>";
+											newHTML += "<a href='about.html'>About</a>";
+										newHTML += "</div>";
+									newHTML += "</li>";
+								newHTML += "</ul>";
+							newHTML += "</nav> ";
+						document.getElementById('header').innerHTML = newHTML;
 
-            } 
-          </script> 
-
+						}	
+					</script>
 
 
 
