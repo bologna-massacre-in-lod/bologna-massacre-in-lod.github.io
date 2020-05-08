@@ -2140,6 +2140,11 @@ input, select, textarea {
 				margin-right: auto;
 			}
 
+	.immagine {
+		max-width: 100%;
+  		height: auto;
+	}
+
 /* List */
 
 	ol {
