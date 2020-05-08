@@ -2186,6 +2186,10 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+	ul.ver {
+		list-style-type: none !important;
+	}
+
 /* Actions */
 
 	ul.actions {
