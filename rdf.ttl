@@ -6,17 +6,17 @@
 @prefix foaf: <//xmlns.com/foaf/0.1/>.
 @prefix fabio: <http://purl.org/spar/fabio>.
 @prefix skos: <http://www.w3.org/2008/05/skos#>.
-@prefix dbo <http://mappings.dbpedia.org/server/ontology/classes/>.
-@prefix frbr <https://vocab.org/frbr/core>.
-@prefix oad <http://culturalis.org/oad/#>.
-@prefix eac-cpf <http://culturalis.org/eac-cpf/>.
-@prefix dcterms <http://purl.org/dc/terms/>.
-@prefix ep-plan <https://trustlens.github.io/EP-PLAN/ >.
-@prefix event <http://motools.sourceforge.net/event/>.
-@prefix nmm <https://www.semanticdesktop.org/ontologies/2009/02/19/nmm/>.
-@prefix gn <https://www.geonames.org/>.
-@prefix owl <http://www.w3.org/2002/07/owl#>.
-@prefix viaf <https://viaf.org/viaf/>.
+@prefix dbo: <http://mappings.dbpedia.org/server/ontology/classes/>.
+@prefix frbr: <https://vocab.org/frbr/core>.
+@prefix oad: <http://culturalis.org/oad/#>.
+@prefix eac-cpf: <http://culturalis.org/eac-cpf/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix ep-plan: <https://trustlens.github.io/EP-PLAN/>.
+@prefix event: <http://motools.sourceforge.net/event/>.
+@prefix nmm: <https://www.semanticdesktop.org/ontologies/2009/02/19/nmm/>.
+@prefix gn: <https://www.geonames.org/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix viaf: <https://viaf.org/viaf/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
 
@@ -28,7 +28,7 @@
     	schema:contentLocation gn:3181926;
    	frbr:owner <entity/association>;
    	dcterms:format <http://vocab.getty.edu/page/aat/300014190>;
-	foaf:isPrimaryTopicOf <http://san.beniculturali.it/web/san/dettaglio-oggetto-digitale?pid=san.dl.SAN:IMG-0000274>
+	foaf:isPrimaryTopicOf <http://san.beniculturali.it/web/san/dettaglio-oggetto-digitale?pid=san.dl.SAN:IMG-0000274>;
    	schema:recordedAt <event/bologna_massacre>.
 
  
@@ -66,7 +66,7 @@
 	a nmm:Movie;
 	dcterms:language <http://d-nb.info/gnd/4114056-4>;
 	dbo:releaseLocation gn:3175395;
-	schema:datePublished “2014-05-29”^^xsd:dateTime;
+	schema:datePublished "2014-05-29"^^xsd:dateTime;
 	oad:isProducedBy "Molteni, G."^^xsd:string, 
   			 "Maurizio, D.S."^^xsd:string;
 	crm:P102_has_title "2 Agosto 1980... I giorni della collera"^^xsd:string;
@@ -92,7 +92,7 @@
  
 <object/judgment>
 
-    	a dbo:Document
+    	a dbo:Document;
     	dcterms:creator <https://www.worldcat.org/identities/viaf-294906222/>;
     	schema:datePublished "1995-11-23"^^xsd:dateTime;
     	dbo:releaseLocation gn:3175395;
