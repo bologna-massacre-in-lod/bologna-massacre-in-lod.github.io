@@ -2146,6 +2146,25 @@ input, select, textarea {
   		height: auto;
 	}
 
+/* image container for the zoom buttone */
+
+	.img-container {
+	  position: relative;
+	  overflow: hidden;
+	  margin:0;
+	  padding:0;
+	  height: 600px;
+	  width: 80%;
+	  overflow: auto;
+	  -webkit-overflow-scrolling: touch;
+	  overflow-x: auto;
+	}
+
+	.img-container img {
+		width: 100%;
+		height: auto;
+	 }
+
 /* Magnifier lens */
 	* {box-sizing: border-box;}
 

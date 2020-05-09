@@ -68,6 +68,27 @@ function magnify(imgID, zoom) {
 
 /* /Magnify lens functions */
 
+
+/* Zoom in and Zoom out buttons */
+
+function zoomin() {
+  var myImg = document.getElementById("conc");
+  var currWidth = myImg.clientWidth;
+  if (currWidth == 2500) return false;
+  else {
+    myImg.style.width = (currWidth + 100) + "px";
+  }
+}
+
+function zoomout() {
+  var myImg = document.getElementById("cconc");
+  var currWidth = myImg.clientWidth;
+  if (currWidth == 100) return false;
+  else {
+    myImg.style.width = (currWidth - 100) + "px";
+  }
+}
+
 (function($) {
 
 	var	$window = $(window),
