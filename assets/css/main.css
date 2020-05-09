@@ -2198,33 +2198,6 @@ input, select, textarea {
 	  height: 250px;
 	}
 
-/* Magnifier lens for rdf graph */
-	* {box-sizing: border-box;}
-
-	.img-magnifier-container-rdf {
-	  position: relative;
-	  margin-left: 30px;
-	  margin-right: 50px;
-	  margin-top: 30px;
-	  margin-bottom: 30px;
-	  height: 200px;
-	}
-
-	.img-magnifier-container-rdf img {
-	  width: 100%;
-	  height: auto;
-	  padding: 2em;
-	}
-
-	.img-magnifier-glass-rdf {
-	  position: absolute;
-	  border: 1px solid #000;
-	  cursor: none;
-	  /*Set the size of the magnifier glass:*/
-	  width: 200px;
-	  height: 200px;
-	}
-
 
 /* List */
 
