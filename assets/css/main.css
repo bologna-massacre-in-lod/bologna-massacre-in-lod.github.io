@@ -2164,12 +2164,17 @@ input, select, textarea {
 	  overflow: hidden;
 	  margin:0;
 	  padding:0;
-	  width: 500px;
 	  height: 500px;
+	  width: 80%;
 	  overflow: auto;
 	  -webkit-overflow-scrolling: touch;
 	  overflow-x: auto;
 	}
+
+	.img-container img {
+		width: 100%;
+		height: auto;
+	 }
 
 /* Magnifier lens for conceptual */
 	* {box-sizing: border-box;}
@@ -2212,7 +2217,7 @@ input, select, textarea {
 	.img-magnifier-container-rdf img {
 	  width: 100%;
 	  height: auto;
-	  padding: 1em;
+	  padding: 2em;
 	}
 
 	.img-magnifier-glass-rdf {
