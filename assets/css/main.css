@@ -2160,12 +2160,6 @@ input, select, textarea {
 	  overflow-x: auto;
 	}
 
-	.img-container-t img {
-		width: 100%;
-        height: 100%;
-        display: block;
-	 }
-
 /* Magnifier lens for conceptual */
 	* {box-sizing: border-box;}
 
