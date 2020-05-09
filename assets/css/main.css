@@ -2159,11 +2159,11 @@ input, select, textarea {
 	  overflow-x: auto;
 	}
 
-	.img-container img {
+/*	.img-container img {
 		width: 100%;
 		height: 300px;
 	 }
-
+*/
 /* image container for the zoom buttons */
 
 	.img-container-t {
@@ -2176,11 +2176,11 @@ input, select, textarea {
 	  -webkit-overflow-scrolling: touch;
 	  overflow-x: auto;
 	}
-
+/*
 	.img-container-t img {
 		width: 100%;
 		height: 600px;
-	 }
+	 }*/
 
 /* Magnifier lens */
 	* {box-sizing: border-box;}
