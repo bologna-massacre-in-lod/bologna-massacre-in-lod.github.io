@@ -87,7 +87,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #2e3842;
+		background: #3e3e22;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1861,7 +1861,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #db9a45;
 		}
 
 	select {
@@ -1951,14 +1951,14 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #2e3842;
+			background: #3e3e22;
 			color: #fff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #db9a45;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2804,15 +2804,15 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: #7e7e6c;
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: #bfbfb5;
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: #dfdfda;
 		}
 
 		.spotlight:nth-child(4) {
@@ -2918,8 +2918,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c8ece9;
+			background-color: #db9a45;
+			/* color: #000000; */
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2951,7 +2951,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				color: #ffffff;
 			}
 
 			.wrapper.style1 label {
@@ -2972,12 +2972,12 @@ input, select, textarea {
 
 				.wrapper.style1 select option {
 					color: #ffffff;
-					background: #21b2a6;
+					background: #db9a45;
 				}
 
 			.wrapper.style1 input[type="checkbox"] + label,
 			.wrapper.style1 input[type="radio"] + label {
-				color: #c8ece9;
+				color: ##ffffff;
 			}
 
 				.wrapper.style1 input[type="checkbox"] + label:before,
@@ -2988,7 +2988,7 @@ input, select, textarea {
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #21b2a6;
+				color: #db9a45;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
@@ -3078,7 +3078,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
+			background-color: #3e3e22;
 		}
 
 		.wrapper.style3 {
@@ -3251,11 +3251,11 @@ input, select, textarea {
 		}
 
 			.wrapper.style5 strong, .wrapper.style5 b {
-				color: #2E3842;
+				color: #3e3e22;
 			}
 
 			.wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
-				color: #2E3842;
+				color: #3e3e22;
 			}
 
 			.wrapper.style5 hr {
@@ -3283,7 +3283,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style5 label {
-				color: #2E3842;
+				color: #3e3e22;
 			}
 
 			.wrapper.style5 input[type="text"],
@@ -3299,7 +3299,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style5 select option {
-					color: #2E3842;
+					color: #3e3e22;
 					background: #ffffff;
 				}
 
@@ -3315,7 +3315,7 @@ input, select, textarea {
 
 			.wrapper.style5 input[type="checkbox"]:checked + label:before,
 			.wrapper.style5 input[type="radio"]:checked + label:before {
-				background: #2E3842;
+				background: #3e3e22;
 				color: #ffffff;
 			}
 
@@ -3357,7 +3357,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style5 table th {
-				color: #2E3842;
+				color: #3e3e22;
 			}
 
 			.wrapper.style5 table thead {
@@ -3378,7 +3378,7 @@ input, select, textarea {
 			.wrapper.style5 button,
 			.wrapper.style5 .button {
 				box-shadow: inset 0 0 0 2px #dfdfdf;
-				color: #2E3842;
+				color: #3e3e22;
 			}
 
 				.wrapper.style5 input[type="submit"]:hover,
@@ -3412,11 +3412,11 @@ input, select, textarea {
 		}
 
 			.wrapper.style6 strong, .wrapper.style6 b {
-				color: #2E3842;
+				color: #3e3e22;
 			}
 
 			.wrapper.style6 h2, .wrapper.style6 h3, .wrapper.style6 h4, .wrapper.style6 h5, .wrapper.style6 h6 {
-				color: #2E3842;
+				color: #3e3e22;
 			}
 
 			.wrapper.style6 hr {
@@ -3440,7 +3440,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style6 label {
-				color: #2E3842;
+				color: #3e3e22;
 			}
 
 			.wrapper.style6 ::-webkit-input-placeholder {
@@ -3490,7 +3490,7 @@ input, select, textarea {
 			.wrapper.style6 button,
 			.wrapper.style6 .button {
 				box-shadow: inset 0 0 0 2px #dfdfdf;
-				color: #2E3842;
+				color: #3e3e22;
 			}
 
 				.wrapper.style6 input[type="submit"]:hover,
@@ -3568,7 +3568,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #db9a45;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3659,7 +3659,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #3e3e22;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3910,7 +3910,7 @@ input, select, textarea {
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
-			background: #2e3842;
+			background: #3e3e22;
 			display: block;
 			width: 100%;
 			height: 100%;
