@@ -88,7 +88,12 @@
 							<h3><a id="data">METADATA ALIGNMENT</a></h3>
 							<p>The goal of the metadata analysis is to show the relationships between the items metadata and the respective standards.
 							Align means also compare. Compare the ways in which the stadards are able to describe a same entity through different perspectives, the ones attributed to the standards themselves.
-							The metadata analysis has been divided into two parts: the entity alignement and the item alignement.</p>
+							The metadata analysis has been divided into two parts: the <b>entity</b> alignement and the <b>item</b> alignement. 
+							The first one is a table where four entities (People, Date, Place and Subject) have been taken into account in order to be described by all the standards.
+							The choice of the properties was based on the characteristics of the standards and on the items ones.
+							Only a few properties could be described by all the standards and were representative of the metadata of our items. These properties are the ones shown in the first four tables.<br>
+							In a second moment the items have been described through the ontologies or standards which could best describe them. In this case only three or four standards have been selected.
+							Those ones are available in the last tables, named by type (audio, biography etc.).</p>
 
 							<h4>TABLES INDEX</h4>
 							<ul class="ver">
@@ -104,7 +109,7 @@
 									<li><a href="#audio">Audio</a>,</li>
 									<li><a href="#bio">Biography</a>,</li>
 									<li><a href="#comics">Comics</a>,</li>
-									<li><a href="#jud">Judgement</a>,</li>
+									<li><a href="#jud">Judgment</a>,</li>
 									<li><a href="#movie">Movie</a>,</li>
 									<li><a href="#painting">Painting</a>,</li>
 									<li><a href="#photo">Photography</a>,</li>
@@ -123,7 +128,7 @@
 									<tr>
 									    <th>Property</th>
 									    <th>Pico A.P.</th>
-									    <th>METS-SAN</th>
+									    <th>Mets San</th>
 									    <th>EAD</th>
 									    <th>ISBD</th>
 									    <th>MMD</th>
@@ -187,7 +192,7 @@
 									<tr>
 									    <th>Property </th>
 									    <th>Pico A.P.</th>
-									    <th>METS-SAN</th>
+									    <th>Mets San</th>
 									    <th>EAD</th>
 									    <th>ISBD</th>
 									    <th>MMD</th>
@@ -238,7 +243,7 @@
 									<tr>
 										<th>Property </th>
 										<th>Pico A.P.</th>
-										<th>METS-SAN</th>
+										<th>Mets San</th>
 										<th>EAD</th>
 										<th>ISBD</th>
 										<th>MMD</th>
@@ -275,7 +280,7 @@
 									<tr>
 									    <th>Property </th>
 									    <th>Pico A.P.</th>
-									    <th>METS-SAN</th>
+									    <th>Mets San</th>
 									    <th>EAD</th>
 									    <th>ISBD</th>
 									    <th>MMD</th>
@@ -394,7 +399,140 @@
 
 								<hr>
 								<h2>ITEMS</h2>
+				<!-- Audio recording -->
+			  					<h4><a id="audio">AUDIO RECORDING</a></h4>
+			  					<table class="align">
 
+			  						<tr>
+								      <th rowspan="3">Title</th>
+								      <td>METS-SAN</td>
+								      <td>&lt;ead:prefercite&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>ISBD</td>
+								      <td>1.1 Title proper</td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>has title of the manifestation</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Format/Material</th>
+								      <td>METS-SAN</td>
+								      <td>&lt;ead:physdesc&gt;, &lt;ead:genreform type="supporto"&gt;, &lt;type="tipologie documentarie"&gt; </td>
+								    </tr>
+								    <tr>
+								      <td>ISBD</td>
+								      <td>5.1.2 Specific material designation, 5.2.2 Composition of material</td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>has physical medium, has form of carrier</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Description</th>
+								      <td>METS-SAN</td>
+								      <td>&lt;ead:description&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>ISBD</td>
+								      <td>7.10.2 Notes providing a summary</td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>has summarization of content</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Place</th>
+								      <td>METS-SAN</td>
+								      <td>&lt;ead:geogname&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>ISBD</td>
+								      <td>4.1 Place of publication, production and/or distribution</td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>has place of publication or distribution</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Content</th>
+								      <td>METS-SAN</td>
+								      <td>&lt;ead:subject&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>ISBD</td>
+								      <td>7.10.2 Notes providing a summary</td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>has summarization of content</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Physical Description</th>
+								      <td>METS-SAN</td>
+								      <td>&lt;ead:extent&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>ISBD</td>
+								      <td>35.1.5 Playing time</td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>has extent of the expression</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Language</th>
+								      <td>METS-SAN</td>
+								      <td>&lt;ead:language&gt;, &lt;ead:langmaterial&gt;, &lt;ead:language langcode=""&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>ISBD</td>
+								      <td>7.1.2 Note on nature, scope, form, purpose, language
+								      </td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>has language of expression</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Date</th>
+								      <td>METS-SAN</td>
+								      <td>&lt;ead:unitdate&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>ISBD</td>
+								      <td>4.3 Date of publication, production and/or distribution</td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>has date of publication, production and/or distribution</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Type</th>
+								      <td>METS-SAN</td>
+								      <td>&lt;ead:phystech&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>ISBD</td>
+								      <td>0.1 Content form, 0.2 Media type</td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>has form of carrier</td>
+								    </tr>
+								</table>
+								
+					<!-- Biography -->
+								<br>
 								<h4><a id="bio">BIOGRAPHY</a></h4>
 			  					<table class="align">
 								    <tr>
@@ -565,869 +703,7 @@
 								      <td>4.8. Area dei numeri identificativi</td>
 								    </tr>  
 								</table>
-
-								<br>
-								<h4><a id="photo">PHOTOGRAPHY</a></h4>				  					
-			  					<table class="align">
-			  						<tr>
-								    	<th rowspan="4">Format/Material</th>
-								    	<td>ISBD</td>
-								    	<td>5.1.2 Specific material designation, 5.2.2 Composition of materiaL</td>
-								   	</tr>
-								    <tr>
-								    	<td>PRISM</td>
-								    	<td>&lt;dc:format&gt;</td>
-								    </tr>
-								    <tr>
-								    	<td>METS-SAN</td>
-								      	<td>&lt;ead:physdesc&gt;, &lt;ead:genreform type="supporto"&gt;, &lt;type="tipologie documentarie"&gt;</td>
-								   	</tr>
-								   	<tr>
-								      	<td>VRA core</td>
-								      	<td>&lt;material&gt;, &lt;material type="support"&gt;</td>
-								   	</tr>
-
-								   	<tr>
-								      	<th rowspan="4">Title</th>
-								      	<td>ISBD</td>
-								     	<td>1.1 Title proper</td>
-								   	</tr>
-								    <tr>
-								      	<td>PRISM</td>
-								      	<td>&lt;dc:title&gt;</td>
-								    </tr>
-								    <tr>
-								      	<td>METS-SAN</td>
-								      	<td>&lt;ead:prefercite&gt;</td>
-								   	</tr>
-								   	<tr>
-								      	<td>VRA core</td>
-								      	<td>&lt;title&gt;</td>
-								   	</tr>
-
-								   	<tr>
-								      	<th rowspan="4">Owner</th>
-								      	<td>ISBD</td>
-								     	<td>-</td>
-								   	</tr>
-								    <tr>
-								      	<td>PRISM</td>
-								      	<td>&lt;prism:corporateEntity&gt;</td>
-								    </tr>
-								    <tr>
-								      	<td>METS-SAN</td>
-								      	<td>&lt;mets:agent ROLE="IPOWNER" TYPE="ORGANIZATION"&gt;, &lt;mets:name&gt;</td>
-								   	</tr>
-								   	<tr>
-								      	<td>VRA core</td>
-								      	<td>&lt;rights&gt;, &lt;rightsHolder&gt;</td>
-								   	</tr>
-
-								   	<tr>
-								      	<th rowspan="4">Description</th>
-								      	<td>ISBD</td>
-								     	<td>7.10.2 Notes providing a summary</td>
-								   	</tr>
-								    <tr>
-								      	<td>PRISM</td>
-								      	<td>&lt;dc:description&gt;</td>
-								    </tr>
-								    <tr>
-								      	<td>METS-SAN</td>
-								      	<td>&lt;ead:abstract&gt;</td>
-								   	</tr>
-								   	<tr>
-								      	<td>VRA core</td>
-								      	<td>description</td>
-								   	</tr>
-
-								   	<tr>
-								      	<th rowspan="4">Content</th>
-								      	<td>ISBD</td>
-								     	<td>7.10.2 Notes providing a summary</td>
-								   	</tr>
-								    <tr>
-								      	<td>PRISM</td>
-								      	<td>&lt;dc:subject&gt;, &lt;prism:contentType&gt;, &lt;prism:event&gt;, &lt;prism:keyword&gt;, &lt;prism:location&gt;, &lt;prism:object&gt;, &lt;prism:person&gt;, &lt;prism:timePeriod&gt;</td>
-								    </tr>
-								    <tr>
-								      	<td>METS-SAN</td>
-								      	<td>&lt;ead:subject&gt;</td>
-									</tr>
-									<tr>
-								      	<td>VRA core</td>
-								      	<td>&lt;subject&gt;, &lt;subject term type="descriptiveTopic"&gt;</td>
-								   	</tr>
-
-								   	<tr>
-								      	<th rowspan="4">Place</th>
-								      	<td>ISBD</td>
-								     	<td>4.1 Place of publication, production and/or distribution</td>
-								   	</tr>
-								    <tr>
-								      	<td>PRISM</td>
-								      	<td>&lt;prism:location&gt;</td>
-								    </tr>
-								    <tr>
-								      	<td>METS-SAN</td>
-								      	<td>&lt;ead:geogname&gt;</td>
-								   	</tr>
-								   	<tr>
-								      	<td>VRA core</td>
-								      	<td>&lt;subject term type="geographicPlace"&gt;</td>
-								   	</tr>
-
-								   	<tr>
-								      	<th rowspan="4">Date</th>
-								      	<td>ISBD</td>
-								     	<td>4.3 Date of publication, production and/or distribution, 4.6 Date of printing or manufacture</td>
-								   	</tr>
-								    <tr>
-								      	<td>PRISM</td>
-								      	<td>&lt;prism:creationDate&gt;, &lt;prism:publicationDate&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>METS-SAN</td>
-								      <td>&lt;ead:unitdate normal="" datechar="principale"&gt;</td>
-								   	</tr>
-								   	<tr>
-								      	<td>VRA core</td>
-								      	<td>&lt;date&gt;, &lt;date type="creation"&gt;</td>
-								   	</tr>
-
-								   	<tr>
-								      	<th rowspan="4">Language</th>
-								      	<td>ISBD</td>
-								     	<td>7.1.2 Note on nature, scope, form, purpose, language</td>
-								   	</tr>
-								    <tr>
-								      	<td>PRISM</td>
-								      	<td>&lt;dc:language&gt;</td>
-								    </tr>
-								    <tr>
-								      	<td>METS-SAN</td>
-								      	<td>&lt;ead:language&gt;, &lt;ead:langmaterial&gt;, &lt;ead:language langcode=""&gt;</td>
-								   	</tr>
-								   	<tr>
-								      <td>VRA core</td>
-								      <td>-</td>
-								   	</tr>
-
-								   	<tr>
-								      	<th rowspan="4">Type</th>
-								      	<td>ISBD</td>
-								     	<td>0.1 Content form, 0.2 Media type</td>
-								   	</tr>
-								    <tr>
-								      	<td>PRISM</td>
-								      	<td>&lt;dc:type&gt;, &lt;prism:contentType&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>METS-SAN</td>
-								      <td>&lt;ead:phystech&gt;, &lt;mix:FormatDesignation&gt;, &lt;mix:formatName&gt;</td>
-								   	</tr>
-								   	<tr>
-								      <td>VRA core</td>
-								      <td>&lt;worktype&gt;</td>
-								   	</tr>
-
-								   	<tr>
-								      	<th rowspan="4">Identifier</th>
-								      	<td>ISBD</td>
-								     	<td>7.8 Notes on the resource identifier and terms of availability area, 8 Resource identifier and terms of availability area, 8.1 Resource Identifier</td>
-								   	</tr>
-								    <tr>
-								      	<td>PRISM</td>
-								      	<td>&lt;dc:identifier&gt;</td>
-								    </tr>
-								    <tr>
-								      	<td>METS-SAN</td>
-								      	<td>&lt;mets:altRecordID TYPE="SAN"&gt;</td>
-								   	</tr>
-								   	<tr>
-								      	<td>VRA core</td>
-								      	<td>&lt;work id=""&gt;, &lt;image id=""&gt;</td>
-								   	</tr>
-								</table>
-
-								<br>
-			  					<h4><a id="audio">AUDIO RECORDING</a></h4>
-			  					<table class="align">
-
-			  						<tr>
-								      <th rowspan="3">Title</th>
-								      <td>METS-SAN</td>
-								      <td>&lt;ead:prefercite&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>ISBD</td>
-								      <td>1.1 Title proper</td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>has title of the manifestation</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Format/Material</th>
-								      <td>METS-SAN</td>
-								      <td>&lt;ead:physdesc&gt;, &lt;ead:genreform type="supporto"&gt;, &lt;type="tipologie documentarie"&gt; </td>
-								    </tr>
-								    <tr>
-								      <td>ISBD</td>
-								      <td>5.1.2 Specific material designation, 5.2.2 Composition of material</td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>has physical medium, has form of carrier</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Description</th>
-								      <td>METS-SAN</td>
-								      <td>&lt;ead:description&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>ISBD</td>
-								      <td>7.10.2 Notes providing a summary</td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>has summarization of content</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Place</th>
-								      <td>METS-SAN</td>
-								      <td>&lt;ead:geogname&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>ISBD</td>
-								      <td>4.1 Place of publication, production and/or distribution</td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>has place of publication or distribution</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Content</th>
-								      <td>METS-SAN</td>
-								      <td>&lt;ead:subject&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>ISBD</td>
-								      <td>7.10.2 Notes providing a summary</td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>has summarization of content</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Physical Description</th>
-								      <td>METS-SAN</td>
-								      <td>&lt;ead:extent&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>ISBD</td>
-								      <td>35.1.5 Playing time</td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>has extent of the expression</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Language</th>
-								      <td>METS-SAN</td>
-								      <td>&lt;ead:language&gt;, &lt;ead:langmaterial&gt;, &lt;ead:language langcode=""&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>ISBD</td>
-								      <td>7.1.2 Note on nature, scope, form, purpose, language
-								      </td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>has language of expression</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Date</th>
-								      <td>METS-SAN</td>
-								      <td>&lt;ead:unitdate&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>ISBD</td>
-								      <td>4.3 Date of publication, production and/or distribution</td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>has date of publication, production and/or distribution</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Type</th>
-								      <td>METS-SAN</td>
-								      <td>&lt;ead:phystech&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>ISBD</td>
-								      <td>0.1 Content form, 0.2 Media type</td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>has form of carrier</td>
-								    </tr>
-								</table>
-
-			   					<br>
-			   					<h4><a id="painting">PAINTING</a></h4>
-			  					<table class="align">
-								    <tr>
-								      <th rowspan="3">Title</th>
-								      <td>PICO</td>
-								      <td>&lt;title&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>&lt;title&gt;, &lt;defitem&gt;, &lt;label&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>VRA core</td>
-								      <td>&lt;title&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Painter</th>
-								      <td>PICO</td>
-								      <td>&lt;dc:creator&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>&lt;creator&gt;, &lt;author&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>VRA core</td>
-								      <td>&lt;author&gt;, &lt;inscription&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Owner</th>
-								      <td>PICO</td>
-								      <td>&lt;pico:isOwnedby&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>-</td>
-								    </tr>
-								    <tr>
-								      <td>VRA core</td>
-								      <td>&lt;agentSet&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Subject</th>
-								      <td>PICO</td>
-								      <td>&lt;dc:subject&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>&lt;subject&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>VRA core</td>
-								      <td>&lt;subject&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Date</th>
-								      <td>PICO</td>
-								      <td>&lt;date&gt;, &lt;dcterms:Period&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>&lt;unitdate&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>VRA core</td>
-								      <td>&lt;dateSet&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Place of conservation</th>
-								      <td>PICO</td>
-								      <td>&lt;dcterms:spatial&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>&lt;respository&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>VRA core</td>
-								      <td>&lt;locationSet&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Starting Date of Creation</th>
-								      <td>PICO</td>
-								      <td>&lt;dcterms:dateAccepted&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>-</td>
-								    </tr>
-								    <tr>
-								      <td>VRA core</td>
-								      <td>&lt;vra: date type="creation"&gt;, &lt;earliestDate&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Ending Date of Creation</th>
-								      <td>PICO</td>
-								      <td>&lt;dcterms:dateSubmitted&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>-</td>
-								    </tr>
-								    <tr>
-								      <td>VRA core</td>
-								      <td>&lt;vra: date type="creation"&gt;, &lt;latestDate&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Technique</th>
-								      <td>PICO</td>
-								      <td>&lt;pico:MaterialAndTechnique&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>&lt;relatedmaterial&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>VRA core</td>
-								      <td>&lt;materials&gt;, &lt;display&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Artistic School</th>
-								      <td>PICO</td>
-								      <td>&lt;dcterms:Period&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>-</td>
-								    </tr>
-								    <tr>
-								      <td>VRA core</td>
-								      <td>&lt;stylePeriod&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Dimensions</th>
-								      <td>PICO</td>
-								      <td>&lt;dcterms:extent&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>&lt;physdesc&gt;, &lt;dimensions&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>VRA core</td>
-								      <td>&lt;measurements&gt;, &lt;display&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Rights</th>
-								      <td>PICO</td>
-								      <td>&lt;dc:rights&gt;, &lt;dc:license&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>&lt;rightsdeclaration&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>VRA core</td>
-								      <td>&lt;rightsSet&gt;</td>
-								    </tr>
-								</table>
-
-								<br>
-								<h4><a id="movie">MOVIE</a></h4>
-								<table class="align">
-								    <tr>
-								      <th rowspan="3">Title</th>
-								      <td>PICO</td>
-								      <td>&lt;title&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EBUcore</td>
-								      <td>&lt;ebucore:title&gt;, &lt;ebucore:alternativeTitle&gt;, &lt;dc:title&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>&lt;title&gt;, &lt;defitem&gt;, &lt;label&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Director</th>
-								      <td>PICO</td>
-								      <td>&lt;pico:isProducedBy&gt;, &lt;pico:author&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EBUcore</td>
-								      <td>&lt;ebucore:entity&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>&lt;creator&gt;,&lt;author&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Subject</th>
-								      <td>PICO</td>
-								      <td>&lt;dc:subject&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EBUcore</td>
-								      <td>&lt;ebucore:subject&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>&lt;subject&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Contributor</th>
-								      <td>PICO</td>
-								      <td>&lt;pico:contributor&gt;, &lt;editor&gt;, &lt;performer&gt;, &lt;producer&gt;,&lt;responsable&gt;, &lt;translator&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EBUcore</td>
-								      <td>&lt;ebucore:contributor&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>-</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Provider</th>
-								      <td>PICO</td>
-								      <td>&lt;publisher&gt;, &lt;distributor&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EBUcore</td>
-								      <td>&lt;contributors&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>&lt;publisher&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Rights</th>
-								      <td>PICO</td>
-								      <td>&lt;dcterms:rightsHolder&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EBUcore</td>
-								      <td>&lt;ebucore:rights&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>&lt;rightsdeclarations&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Publication Date</th>
-								      <td>PICO</td>
-								      <td>&lt;date&gt;, &lt;dcterms:Period&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EBUcore</td>
-								      <td>&lt;publicationDate&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>&lt;date type='Publication'&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Language</th>
-								      <td>PICO</td>
-								      <td>&lt;dc:language&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EBUcore</td>
-								      <td>&lt;ebucore:language&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>&lt;language&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Content</th>
-								      <td>PICO</td>
-								      <td>&lt;dc:description&gt;, &lt;dcterms:abstract&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EBUcore</td>
-								      <td>&lt;ebucore:description&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>-</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Type</th>
-								      <td>PICO</td>
-								      <td>&lt;dc:type&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EBUcore</td>
-								      <td>&lt;ebucore:type&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>&lt;Item&gt;, &lt;Definition List Item&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Creation Place</th>
-								      <td>PICO</td>
-								      <td>&lt;dcterms:spatial&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EBUcore</td>
-								      <td>&lt;ebucore:location&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>&lt;repository&gt;</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Genre</th>
-								      <td>PICO</td>
-								      <td>-</td>
-								    </tr>
-								    <tr>
-								      <td>EBUcore</td>
-								      <td>&lt;ebucore:genre&gt;</td>
-								    </tr>
-								    <tr>
-								      <td>EAD</td>
-								      <td>&lt;genreform&gt;</td>
-								    </tr>
-								</table>
-
-								<br>
-
-								<h4><a id="video">secondo me video</a></h4>
-								<table class="align">
-								  	<tr>
-									    <th rowspan="3">Distribution</th>
-									    <td>EAD</td>
-									    <td>&lt;publisher&gt;</td>
-									</tr>
-								  	<tr>
-									    <td>EBUCore</td>
-									    <td>&lt;ebucore:entity&gt;</td>
-									</tr>
-								  	<tr>
-									    <td>PICO</td>
-									    <td>&lt;dcterms:isReferencedBy&gt;</td>
-								  	</tr>
-
-								  	<tr>
-									    <th rowspan="3">Institution</th>
-									    <td>EAD</td>
-									    <td>&lt;maintainanceagency&gt; &lt;agencyname&gt; &lt;/agencyname&gt; &lt;/maintainanceagency&gt;</td>
-									</tr>
-								  	<tr>
-									    <td>EBUCore</td>
-									    <td>&lt;ebucore:entity&gt;</td>
-									</tr>
-									<tr>
-									    <td>PICO</td>
-									    <td>&lt;dcterms:isPartOf&gt;</td>
-								 	</tr>
-
-								  	<tr>
-									    <th rowspan="3">Date of creation</th>
-									    <td>EAD</td>
-									    <td>&lt;unitdate&gt;</td>
-								  	</tr>
-									<tr>
-										<td>EBUCore</td>
-									    <td>&lt;ebucore:date&gt;</td>
-									</tr>
-									<tr>
-									    <td>PICO</td>
-									    <td>&lt;dc:identifier&gt;</td>
-									</tr>
-
-									<tr>
-									    <th rowspan="3">Place of creation</th>
-									    <td>EAD</td>
-									    <td>&lt;geogname&gt;</td>
-									</tr>
-									<tr>
-									    <td>EBUCore</td>
-									    <td>&lt;ebucore:location&gt;</td>
-									</tr>
-									<tr>
-									    <td>PICO</td>
-									    <td>&lt;dc:Placename&gt;</td>
-									</tr>
-
-									<tr>
-									    <th rowspan="3">Title</th>
-									    <td>EAD</td>
-									    <td>&lt;unittitle&gt;</td>
-									</tr>
-									<tr>
-									    <td>EBUCore</td>
-									    <td>&lt;ebucore:title&gt;</td>
-									</tr>
-									<tr>
-									    <td>PICO</td>
-									    <td>&lt;dc:title&gt;</td>
-									</tr>
-
-									<tr>
-									    <th rowspan="3">Content</th>
-									    <td>EAD</td>
-									    <td>&lt;abstract&gt;</td>
-									</tr>
-									<tr>
-									    <td>EBUCore</td>
-									    <td>&lt;ebucore:description&gt;</td>
-									</tr>
-									<tr>
-									    <td>PICO</td>
-									    <td>&lt;dc:description&gt;</td>
-									</tr>
-
-									<tr>
-									    <th rowspan="3">Subject</th>
-									    <td>EAD</td>
-									    <td>&lt;subject&gt;</td>
-									</tr>
-									<tr>
-									    <td>EBUCore</td>
-									    <td>&lt;ebucore:subject&gt;</td>
-									</tr>
-									<tr>
-									    <td>PICO</td>
-									    <td>&lt;dc:subject&gt;</td>
-									</tr>
-
-									<tr>
-									    <th rowspan="3">Format</th>
-									    <td>EAD</td>
-									    <td>&lt;unittype&gt;</td>
-									</tr>
-									<tr>
-									    <td>EBUCore</td>
-									    <td>&lt;ebucore:format&gt;</td>
-									</tr>
-									<tr>
-									    <td>PICO</td>
-									    <td>&lt;dc:format&gt;</td>
-									</tr>
-
-									  <tr>
-									    <th rowspan="3">Type</th>
-									    <td>EAD</td>
-									    <td>&lt;genreform&gt;</td>
-									  </tr>
-									  <tr>
-									    <td>EBUCore</td>
-									    <td>&lt;ebucore:type&gt;</td>
-									  </tr>
-									  <tr>
-									    <td>PICO</td>
-									    <td>&lt;dc:type&gt;</td>
-									  </tr>
-
-									  <tr>
-									    <th rowspan="3">Language</th>
-									    <td>EAD</td>
-									    <td>&lt;langmaterial&gt;</td>
-									  </tr>
-									  <tr>
-									    <td>EBUCore</td>
-									    <td>&lt;ebucore:language&gt;</td>
-									  </tr>
-									  <tr>
-									    <td>PICO</td>
-									    <td>&lt;dc:language&gt;</td>
-									  </tr>
-
-									  <tr>
-									    <th rowspan="3">Sonour</th>
-									    <td>EAD</td>
-									    <td>&lt;physdescstructured otherphysdesctructuredtype = “”&gt;</td>
-									  </tr>
-									  <tr>
-									    <td>EBUCore</td>
-									    <td>&lt;ebucore:audioFormat&gt;</td>
-									  </tr>
-									  <tr>
-									    <td>PICO</td>
-									    <td>&lt;dcterms:description&gt;</td>
-									  </tr>
-
-									  <tr>
-									    <th rowspan="3">Colour</th>
-									    <td>EAD</td>
-									    <td>&lt;physdescstructured otherphysdesctructuredtype = “”&gt;</td>
-									  </tr>
-									  <tr>
-									    <td>EBUCore</td>
-									    <td>&lt;ebucore:technicalAttributeString&gt;</td>
-									  </tr>
-									  <tr>
-									    <td>PICO</td>
-									    <td>&lt;dcterms:description&gt;</td>
-									  </tr>
-
-									  <tr>
-									    <th rowspan="3">Sequencies</th>
-									    <td>EAD</td>
-									    <td>&lt;arrangement&gt; &lt;p&gt; &lt;item&gt; &lt;/item&gt;
-									 &lt;/p&gt; &lt;/arrangement&gt;</td>
-									  </tr>
-									  <tr>
-									    <td>EBUCore</td>
-									    <td>&lt;ebucore:part&gt;</td>
-									  </tr>
-									  <tr>
-									    <td>PICO</td>
-									    <td>-</td>
-									  </tr>
-
-									  <tr>
-									    <th rowspan="3">Duration</th>
-									    <td>EAD</td>
-									    <td>&lt;physdescstructured otherphysdesctructuredtype = “”&gt;</td>
-									  </tr>
-									  <tr>
-									    <td>EBUCore</td>
-									    <td>&lt;ebucore:duration&gt;</td>
-									  </tr>
-									  <tr>
-									    <td>PICO</td>
-									    <td>&lt;dcterms:extent&gt;</td>
-									  </tr>
-								</table>
-
+					<!-- Comics -->
 								<br>
 								<h4><a id="comics">COMICS</a></h4>
 								<table class="align">
@@ -1673,7 +949,683 @@
 								      <td>1.5 Tipi di pubblicazione</td>
 								   </tr>
 								</table>
+								
+					<!-- Judgment -->
+								   <br>
+								  <h4><a id="jud">JUDGMENT</a></h4>
+								  <table class="align">
+								<tr>
+								      <th rowspan="3">Title</th>
+								      <td>REICAT</td>
+								      <td> 4.1.1.1 C. Il titolo</td>
+								    </tr>
+								    <tr>
+								      <td>ISBD</td>
+								      <td>1.1 Title proper </td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>has title of the manifestation </td>
+								    </tr>
+								<tr>
+								      <th rowspan="3">Author</th>
+								      <td>REICAT</td>
+								      <td>14.2.2 Responsabilità d’autore</td>
+								    </tr>
+								    <tr>
+								      <td>ISBD</td>
+								      <td>1.4 Statement of responsibility (creator)</td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>has statement of responsibility</td>
+								    </tr>
+								
+								<tr>
+								      <th rowspan="3">Editor</th>
+								      <td>REICAT</td>
+								      <td>4.4.2 nome dell’editore</td>
+								    </tr>
+								    <tr>
+								      <td>ISBD</td>
+								      <td>4.2 Name of publisher</td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>has publisher</td>
+								    </tr>
+								
+								<tr>
+								      <th rowspan="3">Place of publication</th>
+								      <td>REICAT</td>
+								      <td>4.4.1 luogo di pubblicazione o distribuzione</td>
+								    </tr>
+								    <tr>
+								      <td>ISBD</td>
+								      <td>4.1Place of publication, production and/or distribution</td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>has place of publication</td>
+								    </tr>
 
+								    <tr>
+								      <th rowspan="3">Date of publication</th>
+								      <td>REICAT</td>
+								      <td>4.4.4 Data di pubblicazione</td>
+								    </tr>
+								    <tr>
+								      <td>ISBD</td>
+								      <td>4.6 Date of printing or manufacture</td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>-</td>
+								    </tr>
+								<tr>
+								      <th rowspan="3">Subject</th>
+								      <td>REICAT</td>
+								      <td>-</td>
+								    </tr>
+								    <tr>
+								      <td>ISBD</td>
+								      <td>7.10.2 Note providing a summary</td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>has summarization of content</td>
+								    </tr>
+								
+								<tr>
+								      <th rowspan="3">Description</th>
+								      <td>REICAT</td>
+								      <td> 4. Aree ed elementi della descrizone</td>
+								    </tr>
+								    <tr>
+								      <td>ISBD</td>
+								      <td>7.7 Note on contents</td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>has form of expression</td>
+								    </tr>
+									  
+								    <tr>
+								      <th rowspan="3">Type</th>
+								      <td>REICAT</td>
+								      <td>4.5.1 designazione specifica del materiale</td>
+								    </tr>
+									  
+								    <tr>
+								      <td>ISBD</td>
+								      <td>0.2 Media type</td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>has form of carrier</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Format</th>
+								      <td>REICAT</td>
+								      <td>7.4.1 caratteristiche del supporto</td>
+								    </tr>
+								    <tr>
+								      <td>ISBD</td>
+								      <td>5.1.2 Specific material designation</td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>has form of carrier</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Dewey</th>
+								      <td>REICAT</td>
+								      <td>4.8.2.3 altri codici indentificativi</td>
+								    </tr>
+								    <tr>
+								      <td>ISBD</td>
+								      <td>7.8 Note on resource identifier and terms of availability</td>
+								    </tr>
+								    <tr>
+								      <td>FRBR</td>
+								      <td>has terms of availability</td>
+								    </tr>
+
+								    
+								  </table>
+					<!-- Movie -->
+								<br>
+								<h4><a id="movie">MOVIE</a></h4>
+								<table class="align">
+								    <tr>
+								      <th rowspan="3">Title</th>
+								      <td>PICO</td>
+								      <td>&lt;title&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EBUcore</td>
+								      <td>&lt;ebucore:title&gt;, &lt;ebucore:alternativeTitle&gt;, &lt;dc:title&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>&lt;title&gt;, &lt;defitem&gt;, &lt;label&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Director</th>
+								      <td>PICO</td>
+								      <td>&lt;pico:isProducedBy&gt;, &lt;pico:author&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EBUcore</td>
+								      <td>&lt;ebucore:entity&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>&lt;creator&gt;,&lt;author&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Subject</th>
+								      <td>PICO</td>
+								      <td>&lt;dc:subject&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EBUcore</td>
+								      <td>&lt;ebucore:subject&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>&lt;subject&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Contributor</th>
+								      <td>PICO</td>
+								      <td>&lt;pico:contributor&gt;, &lt;editor&gt;, &lt;performer&gt;, &lt;producer&gt;,&lt;responsable&gt;, &lt;translator&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EBUcore</td>
+								      <td>&lt;ebucore:contributor&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>-</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Provider</th>
+								      <td>PICO</td>
+								      <td>&lt;publisher&gt;, &lt;distributor&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EBUcore</td>
+								      <td>&lt;contributors&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>&lt;publisher&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Rights</th>
+								      <td>PICO</td>
+								      <td>&lt;dcterms:rightsHolder&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EBUcore</td>
+								      <td>&lt;ebucore:rights&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>&lt;rightsdeclarations&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Publication Date</th>
+								      <td>PICO</td>
+								      <td>&lt;date&gt;, &lt;dcterms:Period&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EBUcore</td>
+								      <td>&lt;publicationDate&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>&lt;date type='Publication'&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Language</th>
+								      <td>PICO</td>
+								      <td>&lt;dc:language&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EBUcore</td>
+								      <td>&lt;ebucore:language&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>&lt;language&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Content</th>
+								      <td>PICO</td>
+								      <td>&lt;dc:description&gt;, &lt;dcterms:abstract&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EBUcore</td>
+								      <td>&lt;ebucore:description&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>-</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Type</th>
+								      <td>PICO</td>
+								      <td>&lt;dc:type&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EBUcore</td>
+								      <td>&lt;ebucore:type&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>&lt;Item&gt;, &lt;Definition List Item&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Creation Place</th>
+								      <td>PICO</td>
+								      <td>&lt;dcterms:spatial&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EBUcore</td>
+								      <td>&lt;ebucore:location&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>&lt;repository&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Genre</th>
+								      <td>PICO</td>
+								      <td>-</td>
+								    </tr>
+								    <tr>
+								      <td>EBUcore</td>
+								      <td>&lt;ebucore:genre&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>&lt;genreform&gt;</td>
+								    </tr>
+								</table>
+					<!-- Painting -->
+			   					<br>
+			   					<h4><a id="painting">PAINTING</a></h4>
+			  					<table class="align">
+								    <tr>
+								      <th rowspan="3">Title</th>
+								      <td>PICO</td>
+								      <td>&lt;title&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>&lt;title&gt;, &lt;defitem&gt;, &lt;label&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>VRA core</td>
+								      <td>&lt;title&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Painter</th>
+								      <td>PICO</td>
+								      <td>&lt;dc:creator&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>&lt;creator&gt;, &lt;author&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>VRA core</td>
+								      <td>&lt;author&gt;, &lt;inscription&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Owner</th>
+								      <td>PICO</td>
+								      <td>&lt;pico:isOwnedby&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>-</td>
+								    </tr>
+								    <tr>
+								      <td>VRA core</td>
+								      <td>&lt;agentSet&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Subject</th>
+								      <td>PICO</td>
+								      <td>&lt;dc:subject&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>&lt;subject&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>VRA core</td>
+								      <td>&lt;subject&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Date</th>
+								      <td>PICO</td>
+								      <td>&lt;date&gt;, &lt;dcterms:Period&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>&lt;unitdate&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>VRA core</td>
+								      <td>&lt;dateSet&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Place of conservation</th>
+								      <td>PICO</td>
+								      <td>&lt;dcterms:spatial&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>&lt;respository&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>VRA core</td>
+								      <td>&lt;locationSet&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Starting Date of Creation</th>
+								      <td>PICO</td>
+								      <td>&lt;dcterms:dateAccepted&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>-</td>
+								    </tr>
+								    <tr>
+								      <td>VRA core</td>
+								      <td>&lt;vra: date type="creation"&gt;, &lt;earliestDate&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Ending Date of Creation</th>
+								      <td>PICO</td>
+								      <td>&lt;dcterms:dateSubmitted&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>-</td>
+								    </tr>
+								    <tr>
+								      <td>VRA core</td>
+								      <td>&lt;vra: date type="creation"&gt;, &lt;latestDate&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Technique</th>
+								      <td>PICO</td>
+								      <td>&lt;pico:MaterialAndTechnique&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>&lt;relatedmaterial&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>VRA core</td>
+								      <td>&lt;materials&gt;, &lt;display&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Artistic School</th>
+								      <td>PICO</td>
+								      <td>&lt;dcterms:Period&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>-</td>
+								    </tr>
+								    <tr>
+								      <td>VRA core</td>
+								      <td>&lt;stylePeriod&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Dimensions</th>
+								      <td>PICO</td>
+								      <td>&lt;dcterms:extent&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>&lt;physdesc&gt;, &lt;dimensions&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>VRA core</td>
+								      <td>&lt;measurements&gt;, &lt;display&gt;</td>
+								    </tr>
+
+								    <tr>
+								      <th rowspan="3">Rights</th>
+								      <td>PICO</td>
+								      <td>&lt;dc:rights&gt;, &lt;dc:license&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>EAD</td>
+								      <td>&lt;rightsdeclaration&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>VRA core</td>
+								      <td>&lt;rightsSet&gt;</td>
+								    </tr>
+								</table>
+				<!-- Photography -->
+								<br>
+								<h4><a id="photo">PHOTOGRAPHY</a></h4>				  					
+			  					<table class="align">
+			  						<tr>
+								    	<th rowspan="4">Format/Material</th>
+								    	<td>ISBD</td>
+								    	<td>5.1.2 Specific material designation, 5.2.2 Composition of materiaL</td>
+								   	</tr>
+								    <tr>
+								    	<td>PRISM</td>
+								    	<td>&lt;dc:format&gt;</td>
+								    </tr>
+								    <tr>
+								    	<td>METS-SAN</td>
+								      	<td>&lt;ead:physdesc&gt;, &lt;ead:genreform type="supporto"&gt;, &lt;type="tipologie documentarie"&gt;</td>
+								   	</tr>
+								   	<tr>
+								      	<td>VRA core</td>
+								      	<td>&lt;material&gt;, &lt;material type="support"&gt;</td>
+								   	</tr>
+
+								   	<tr>
+								      	<th rowspan="4">Title</th>
+								      	<td>ISBD</td>
+								     	<td>1.1 Title proper</td>
+								   	</tr>
+								    <tr>
+								      	<td>PRISM</td>
+								      	<td>&lt;dc:title&gt;</td>
+								    </tr>
+								    <tr>
+								      	<td>METS-SAN</td>
+								      	<td>&lt;ead:prefercite&gt;</td>
+								   	</tr>
+								   	<tr>
+								      	<td>VRA core</td>
+								      	<td>&lt;title&gt;</td>
+								   	</tr>
+
+								   	<tr>
+								      	<th rowspan="4">Owner</th>
+								      	<td>ISBD</td>
+								     	<td>-</td>
+								   	</tr>
+								    <tr>
+								      	<td>PRISM</td>
+								      	<td>&lt;prism:corporateEntity&gt;</td>
+								    </tr>
+								    <tr>
+								      	<td>METS-SAN</td>
+								      	<td>&lt;mets:agent ROLE="IPOWNER" TYPE="ORGANIZATION"&gt;, &lt;mets:name&gt;</td>
+								   	</tr>
+								   	<tr>
+								      	<td>VRA core</td>
+								      	<td>&lt;rights&gt;, &lt;rightsHolder&gt;</td>
+								   	</tr>
+
+								   	<tr>
+								      	<th rowspan="4">Description</th>
+								      	<td>ISBD</td>
+								     	<td>7.10.2 Notes providing a summary</td>
+								   	</tr>
+								    <tr>
+								      	<td>PRISM</td>
+								      	<td>&lt;dc:description&gt;</td>
+								    </tr>
+								    <tr>
+								      	<td>METS-SAN</td>
+								      	<td>&lt;ead:abstract&gt;</td>
+								   	</tr>
+								   	<tr>
+								      	<td>VRA core</td>
+								      	<td>description</td>
+								   	</tr>
+
+								   	<tr>
+								      	<th rowspan="4">Content</th>
+								      	<td>ISBD</td>
+								     	<td>7.10.2 Notes providing a summary</td>
+								   	</tr>
+								    <tr>
+								      	<td>PRISM</td>
+								      	<td>&lt;dc:subject&gt;, &lt;prism:contentType&gt;, &lt;prism:event&gt;, &lt;prism:keyword&gt;, &lt;prism:location&gt;, &lt;prism:object&gt;, &lt;prism:person&gt;, &lt;prism:timePeriod&gt;</td>
+								    </tr>
+								    <tr>
+								      	<td>METS-SAN</td>
+								      	<td>&lt;ead:subject&gt;</td>
+									</tr>
+									<tr>
+								      	<td>VRA core</td>
+								      	<td>&lt;subject&gt;, &lt;subject term type="descriptiveTopic"&gt;</td>
+								   	</tr>
+
+								   	<tr>
+								      	<th rowspan="4">Place</th>
+								      	<td>ISBD</td>
+								     	<td>4.1 Place of publication, production and/or distribution</td>
+								   	</tr>
+								    <tr>
+								      	<td>PRISM</td>
+								      	<td>&lt;prism:location&gt;</td>
+								    </tr>
+								    <tr>
+								      	<td>METS-SAN</td>
+								      	<td>&lt;ead:geogname&gt;</td>
+								   	</tr>
+								   	<tr>
+								      	<td>VRA core</td>
+								      	<td>&lt;subject term type="geographicPlace"&gt;</td>
+								   	</tr>
+
+								   	<tr>
+								      	<th rowspan="4">Date</th>
+								      	<td>ISBD</td>
+								     	<td>4.3 Date of publication, production and/or distribution, 4.6 Date of printing or manufacture</td>
+								   	</tr>
+								    <tr>
+								      	<td>PRISM</td>
+								      	<td>&lt;prism:creationDate&gt;, &lt;prism:publicationDate&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>METS-SAN</td>
+								      <td>&lt;ead:unitdate normal="" datechar="principale"&gt;</td>
+								   	</tr>
+								   	<tr>
+								      	<td>VRA core</td>
+								      	<td>&lt;date&gt;, &lt;date type="creation"&gt;</td>
+								   	</tr>
+
+								   	<tr>
+								      	<th rowspan="4">Language</th>
+								      	<td>ISBD</td>
+								     	<td>7.1.2 Note on nature, scope, form, purpose, language</td>
+								   	</tr>
+								    <tr>
+								      	<td>PRISM</td>
+								      	<td>&lt;dc:language&gt;</td>
+								    </tr>
+								    <tr>
+								      	<td>METS-SAN</td>
+								      	<td>&lt;ead:language&gt;, &lt;ead:langmaterial&gt;, &lt;ead:language langcode=""&gt;</td>
+								   	</tr>
+								   	<tr>
+								      <td>VRA core</td>
+								      <td>-</td>
+								   	</tr>
+
+								   	<tr>
+								      	<th rowspan="4">Type</th>
+								      	<td>ISBD</td>
+								     	<td>0.1 Content form, 0.2 Media type</td>
+								   	</tr>
+								    <tr>
+								      	<td>PRISM</td>
+								      	<td>&lt;dc:type&gt;, &lt;prism:contentType&gt;</td>
+								    </tr>
+								    <tr>
+								      <td>METS-SAN</td>
+								      <td>&lt;ead:phystech&gt;, &lt;mix:FormatDesignation&gt;, &lt;mix:formatName&gt;</td>
+								   	</tr>
+								   	<tr>
+								      <td>VRA core</td>
+								      <td>&lt;worktype&gt;</td>
+								   	</tr>
+
+								   	<tr>
+								      	<th rowspan="4">Identifier</th>
+								      	<td>ISBD</td>
+								     	<td>7.8 Notes on the resource identifier and terms of availability area, 8 Resource identifier and terms of availability area, 8.1 Resource Identifier</td>
+								   	</tr>
+								    <tr>
+								      	<td>PRISM</td>
+								      	<td>&lt;dc:identifier&gt;</td>
+								    </tr>
+								    <tr>
+								      	<td>METS-SAN</td>
+								      	<td>&lt;mets:altRecordID TYPE="SAN"&gt;</td>
+								   	</tr>
+								   	<tr>
+								      	<td>VRA core</td>
+								      	<td>&lt;work id=""&gt;, &lt;image id=""&gt;</td>
+								   	</tr>
+								</table>
+				
+				
+				<!-- Song -->
 								<br>
 								<h4><a id="song">SONG</a></h4>
 								<table class="align">
@@ -1824,152 +1776,8 @@
 								      <td>has extent of the expression</td>
 								    </tr>
 								  </table>
-
-								   <br>
-								  <h4><a id="jud">JUDGMENT</a></h4>
-								  <table class="align">
-								<tr>
-								      <th rowspan="3">Title</th>
-								      <td>REICAT</td>
-								      <td> 4.1.1.1 C. Il titolo</td>
-								    </tr>
-								    <tr>
-								      <td>ISBD</td>
-								      <td>1.1 Title proper </td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>has title of the manifestation </td>
-								    </tr>
-								<tr>
-								      <th rowspan="3">Author</th>
-								      <td>REICAT</td>
-								      <td>14.2.2 Responsabilità d’autore</td>
-								    </tr>
-								    <tr>
-								      <td>ISBD</td>
-								      <td>1.4 Statement of responsibility (creator)</td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>has statement of responsibility</td>
-								    </tr>
-								
-								<tr>
-								      <th rowspan="3">Editor</th>
-								      <td>REICAT</td>
-								      <td>4.4.2 nome dell’editore</td>
-								    </tr>
-								    <tr>
-								      <td>ISBD</td>
-								      <td>4.2 Name of publisher</td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>has publisher</td>
-								    </tr>
-								
-								<tr>
-								      <th rowspan="3">Place of publication</th>
-								      <td>REICAT</td>
-								      <td>4.4.1 luogo di pubblicazione o distribuzione</td>
-								    </tr>
-								    <tr>
-								      <td>ISBD</td>
-								      <td>4.1Place of publication, production and/or distribution</td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>has place of publication</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Date of publication</th>
-								      <td>REICAT</td>
-								      <td>4.4.4 Data di pubblicazione</td>
-								    </tr>
-								    <tr>
-								      <td>ISBD</td>
-								      <td>4.6 Date of printing or manufacture</td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>-</td>
-								    </tr>
-								<tr>
-								      <th rowspan="3">Subject</th>
-								      <td>REICAT</td>
-								      <td>-</td>
-								    </tr>
-								    <tr>
-								      <td>ISBD</td>
-								      <td>7.10.2 Note providing a summary</td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>has summarization of content</td>
-								    </tr>
-								
-								<tr>
-								      <th rowspan="3">Description</th>
-								      <td>REICAT</td>
-								      <td> 4. Aree ed elementi della descrizone</td>
-								    </tr>
-								    <tr>
-								      <td>ISBD</td>
-								      <td>7.7 Note on contents</td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>has form of expression</td>
-								    </tr>
-									  
-								    <tr>
-								      <th rowspan="3">Type</th>
-								      <td>REICAT</td>
-								      <td>4.5.1 designazione specifica del materiale</td>
-								    </tr>
-									  
-								    <tr>
-								      <td>ISBD</td>
-								      <td>0.2 Media type</td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>has form of carrier</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Format</th>
-								      <td>REICAT</td>
-								      <td>7.4.1 caratteristiche del supporto</td>
-								    </tr>
-								    <tr>
-								      <td>ISBD</td>
-								      <td>5.1.2 Specific material designation</td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>has form of carrier</td>
-								    </tr>
-
-								    <tr>
-								      <th rowspan="3">Dewey</th>
-								      <td>REICAT</td>
-								      <td>4.8.2.3 altri codici indentificativi</td>
-								    </tr>
-								    <tr>
-								      <td>ISBD</td>
-								      <td>7.8 Note on resource identifier and terms of availability</td>
-								    </tr>
-								    <tr>
-								      <td>FRBR</td>
-								      <td>has terms of availability</td>
-								    </tr>
-
-								    
-								  </table>
-
+				
+				<!-- Stamp -->
 								  <br>
 								  <h4><a id="stamp">STAMP</a></h4>
 								  <table class="align">
@@ -2124,7 +1932,210 @@
 								      <td>4.8.2.3 altri codici indentificativi</td>
 								    </tr>
 								</table>
+				
 
+								<br>
+				<!-- Video -->
+								<h4><a id="video">video</a></h4>
+								<table class="align">
+								  	<tr>
+									    <th rowspan="3">Distribution</th>
+									    <td>EAD</td>
+									    <td>&lt;publisher&gt;</td>
+									</tr>
+								  	<tr>
+									    <td>EBUCore</td>
+									    <td>&lt;ebucore:entity&gt;</td>
+									</tr>
+								  	<tr>
+									    <td>PICO</td>
+									    <td>&lt;dcterms:isReferencedBy&gt;</td>
+								  	</tr>
+
+								  	<tr>
+									    <th rowspan="3">Institution</th>
+									    <td>EAD</td>
+									    <td>&lt;maintainanceagency&gt; &lt;agencyname&gt; &lt;/agencyname&gt; &lt;/maintainanceagency&gt;</td>
+									</tr>
+								  	<tr>
+									    <td>EBUCore</td>
+									    <td>&lt;ebucore:entity&gt;</td>
+									</tr>
+									<tr>
+									    <td>PICO</td>
+									    <td>&lt;dcterms:isPartOf&gt;</td>
+								 	</tr>
+
+								  	<tr>
+									    <th rowspan="3">Date of creation</th>
+									    <td>EAD</td>
+									    <td>&lt;unitdate&gt;</td>
+								  	</tr>
+									<tr>
+										<td>EBUCore</td>
+									    <td>&lt;ebucore:date&gt;</td>
+									</tr>
+									<tr>
+									    <td>PICO</td>
+									    <td>&lt;dc:identifier&gt;</td>
+									</tr>
+
+									<tr>
+									    <th rowspan="3">Place of creation</th>
+									    <td>EAD</td>
+									    <td>&lt;geogname&gt;</td>
+									</tr>
+									<tr>
+									    <td>EBUCore</td>
+									    <td>&lt;ebucore:location&gt;</td>
+									</tr>
+									<tr>
+									    <td>PICO</td>
+									    <td>&lt;dc:Placename&gt;</td>
+									</tr>
+
+									<tr>
+									    <th rowspan="3">Title</th>
+									    <td>EAD</td>
+									    <td>&lt;unittitle&gt;</td>
+									</tr>
+									<tr>
+									    <td>EBUCore</td>
+									    <td>&lt;ebucore:title&gt;</td>
+									</tr>
+									<tr>
+									    <td>PICO</td>
+									    <td>&lt;dc:title&gt;</td>
+									</tr>
+
+									<tr>
+									    <th rowspan="3">Content</th>
+									    <td>EAD</td>
+									    <td>&lt;abstract&gt;</td>
+									</tr>
+									<tr>
+									    <td>EBUCore</td>
+									    <td>&lt;ebucore:description&gt;</td>
+									</tr>
+									<tr>
+									    <td>PICO</td>
+									    <td>&lt;dc:description&gt;</td>
+									</tr>
+
+									<tr>
+									    <th rowspan="3">Subject</th>
+									    <td>EAD</td>
+									    <td>&lt;subject&gt;</td>
+									</tr>
+									<tr>
+									    <td>EBUCore</td>
+									    <td>&lt;ebucore:subject&gt;</td>
+									</tr>
+									<tr>
+									    <td>PICO</td>
+									    <td>&lt;dc:subject&gt;</td>
+									</tr>
+
+									<tr>
+									    <th rowspan="3">Format</th>
+									    <td>EAD</td>
+									    <td>&lt;unittype&gt;</td>
+									</tr>
+									<tr>
+									    <td>EBUCore</td>
+									    <td>&lt;ebucore:format&gt;</td>
+									</tr>
+									<tr>
+									    <td>PICO</td>
+									    <td>&lt;dc:format&gt;</td>
+									</tr>
+
+									  <tr>
+									    <th rowspan="3">Type</th>
+									    <td>EAD</td>
+									    <td>&lt;genreform&gt;</td>
+									  </tr>
+									  <tr>
+									    <td>EBUCore</td>
+									    <td>&lt;ebucore:type&gt;</td>
+									  </tr>
+									  <tr>
+									    <td>PICO</td>
+									    <td>&lt;dc:type&gt;</td>
+									  </tr>
+
+									  <tr>
+									    <th rowspan="3">Language</th>
+									    <td>EAD</td>
+									    <td>&lt;langmaterial&gt;</td>
+									  </tr>
+									  <tr>
+									    <td>EBUCore</td>
+									    <td>&lt;ebucore:language&gt;</td>
+									  </tr>
+									  <tr>
+									    <td>PICO</td>
+									    <td>&lt;dc:language&gt;</td>
+									  </tr>
+
+									  <tr>
+									    <th rowspan="3">Sonour</th>
+									    <td>EAD</td>
+									    <td>&lt;physdescstructured otherphysdesctructuredtype = “”&gt;</td>
+									  </tr>
+									  <tr>
+									    <td>EBUCore</td>
+									    <td>&lt;ebucore:audioFormat&gt;</td>
+									  </tr>
+									  <tr>
+									    <td>PICO</td>
+									    <td>&lt;dcterms:description&gt;</td>
+									  </tr>
+
+									  <tr>
+									    <th rowspan="3">Colour</th>
+									    <td>EAD</td>
+									    <td>&lt;physdescstructured otherphysdesctructuredtype = “”&gt;</td>
+									  </tr>
+									  <tr>
+									    <td>EBUCore</td>
+									    <td>&lt;ebucore:technicalAttributeString&gt;</td>
+									  </tr>
+									  <tr>
+									    <td>PICO</td>
+									    <td>&lt;dcterms:description&gt;</td>
+									  </tr>
+
+									  <tr>
+									    <th rowspan="3">Sequencies</th>
+									    <td>EAD</td>
+									    <td>&lt;arrangement&gt; &lt;p&gt; &lt;item&gt; &lt;/item&gt;
+									 &lt;/p&gt; &lt;/arrangement&gt;</td>
+									  </tr>
+									  <tr>
+									    <td>EBUCore</td>
+									    <td>&lt;ebucore:part&gt;</td>
+									  </tr>
+									  <tr>
+									    <td>PICO</td>
+									    <td>-</td>
+									  </tr>
+
+									  <tr>
+									    <th rowspan="3">Duration</th>
+									    <td>EAD</td>
+									    <td>&lt;physdescstructured otherphysdesctructuredtype = “”&gt;</td>
+									  </tr>
+									  <tr>
+									    <td>EBUCore</td>
+									    <td>&lt;ebucore:duration&gt;</td>
+									  </tr>
+									  <tr>
+									    <td>PICO</td>
+									    <td>&lt;dcterms:extent&gt;</td>
+									  </tr>
+								</table>
+								
 							</div> <!-- chiudo il div "table-wrapper" -->
 
 						</div> <!-- chiudo l'inner della sezione stile 5 -->
