@@ -2201,6 +2201,7 @@ input, select, textarea {
 	.img-magnifier-container-rdf img {
 	  width: 100%;
 	  height: auto;
+	  padding: 1em;
 	}
 
 	.img-magnifier-glass-rdf {
