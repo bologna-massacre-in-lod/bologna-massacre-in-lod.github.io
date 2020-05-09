@@ -2015,6 +2015,11 @@ input, select, textarea {
 		width: 100%;
 	}
 
+	.box-rdf script {
+		height: 500px;
+		width: 100%;
+	}
+
 /* Icon */
 
 	.icon {
