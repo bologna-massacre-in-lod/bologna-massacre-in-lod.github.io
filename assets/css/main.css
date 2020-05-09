@@ -2172,7 +2172,7 @@ input, select, textarea {
 	  overflow: hidden;
 	  margin:0;
 	  padding:0;
-	  max-height: 600px;
+		max-width: 100%;
 	  overflow: auto;
 	  -webkit-overflow-scrolling: touch;
 	  overflow-x: auto;
