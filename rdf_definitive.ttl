@@ -27,7 +27,7 @@
     	schema:contentLocation gn:3181926;
    	frbr:owner <entity/association>;
    	dcterms:format <http://vocab.getty.edu/page/aat/300014190>;
-	foaf:isPrimaryTopicOf <http://san.beniculturali.it/web/san/dettaglio-oggetto-digitale?pid=san.dl.SAN:IMG-0000274>
+	foaf:isPrimaryTopicOf <http://san.beniculturali.it/web/san/dettaglio-oggetto-digitale?pid=san.dl.SAN:IMG-0000274>;
    	schema:recordedAt <event/bologna_massacre>.
 
  
