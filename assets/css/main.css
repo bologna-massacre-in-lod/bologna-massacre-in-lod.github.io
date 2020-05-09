@@ -2142,9 +2142,16 @@ input, select, textarea {
 				margin-right: auto;
 			}
 
-	.immagine img {
-		max-width: 100%;
-  		height: auto;
+	.img-rdf-graph {
+		height: 400px;
+		width: 100%;
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+		overflow-x: auto;
+	}
+
+	.img-rdf-graph img {
+		width: 450%;
 	}
 
 
