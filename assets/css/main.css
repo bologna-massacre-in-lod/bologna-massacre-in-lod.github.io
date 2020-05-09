@@ -2153,8 +2153,8 @@ input, select, textarea {
 	  overflow: hidden;
 	  margin:0;
 	  padding:0;
-/*	  height: 600px;
-	  width: 80%;*/
+	  height: 300px;
+	  width: 80%;
 	  overflow: auto;
 	  -webkit-overflow-scrolling: touch;
 	  overflow-x: auto;
