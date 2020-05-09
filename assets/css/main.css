@@ -2153,16 +2153,16 @@ input, select, textarea {
 	  overflow: hidden;
 	  margin:0;
 	  padding:0;
-	  height: 300px;
+	  max-height: 300px;
 	  overflow: auto;
 	  -webkit-overflow-scrolling: touch;
 	  overflow-x: auto;
 	}
 
-	/* .img-container img {
+	.img-container img {
 		width: 100%;
 		height: auto;
-	 } */
+	 }
 
 /* image container for the zoom buttons */
 
@@ -2171,8 +2171,7 @@ input, select, textarea {
 	  overflow: hidden;
 	  margin:0;
 	  padding:0;
-	  height: 400px;
-	  width: 500px;
+	  max-height: 400px;
 	  overflow: auto;
 	  -webkit-overflow-scrolling: touch;
 	  overflow-x: auto;
