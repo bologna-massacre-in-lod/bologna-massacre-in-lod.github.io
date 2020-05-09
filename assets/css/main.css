@@ -2163,7 +2163,8 @@ input, select, textarea {
 	}
 
 	.img-container img {
-		width: 500px;
+		width: 400px;
+		height: 400px;
 	 }
 
 /* Magnifier lens for conceptual */
