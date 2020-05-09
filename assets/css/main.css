@@ -2153,10 +2153,10 @@ input, select, textarea {
 	  position: relative;
 	}
 
-	/* .img-magnifier-container img {
+	.img-magnifier-container img {
 	  width: 100%;
 	  height: auto;
-	} */
+	}
 
 	.img-magnifier-glass {
 	  position: absolute;
