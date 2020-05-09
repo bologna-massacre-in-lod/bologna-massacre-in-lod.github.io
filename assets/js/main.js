@@ -70,7 +70,7 @@ function magnify(imgID, zoom) {
 
 
 /* Magnify lens functions */
-function magnify(imgID, zoom) {
+function magnifyy(imgID, zoom) {
   var img, glass, w, h, bw;
   img = document.getElementById(imgID);
 
