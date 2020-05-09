@@ -1,0 +1,123 @@
+@base <https://bologna-massacre-in-lod.github.io/>.
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dbo <http://mappings.dbpedia.org/server/ontology/classes/>.
+@prefix dcterms <http://purl.org/dc/terms/>.
+@prefix eac-cpf <http://culturalis.org/eac-cpf/>.
+@prefix ep-plan <https://trustlens.github.io/EP-PLAN/ >.
+@prefix event <http://motools.sourceforge.net/event/>.
+@prefix fabio: <http://purl.org/spar/fabio>.
+@prefix foaf: <//xmlns.com/foaf/0.1/>.
+@prefix frbr <https://vocab.org/frbr/core>.
+@prefix gn <https://www.geonames.org/>.
+@prefix nmm <https://www.semanticdesktop.org/ontologies/2009/02/19/nmm/>.
+@prefix oad <http://culturalis.org/oad/#>.
+@prefix owl <http://www.w3.org/2002/07/owl#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2008/05/skos#>.
+@prefix viaf <https://viaf.org/viaf/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+
+<object/photograph>
+
+   	a schema:Photograph;
+   	schema:dateCreated "1980-08-02"^^xsd:dateTime;
+   	schema:locationCreated gn:3181926;
+    	schema:contentLocation gn:3181926;
+   	frbr:owner <entity/association>;
+   	dcterms:format <http://vocab.getty.edu/page/aat/300014190>;
+	foaf:isPrimaryTopicOf <http://san.beniculturali.it/web/san/dettaglio-oggetto-digitale?pid=san.dl.SAN:IMG-0000274>
+   	schema:recordedAt <event/bologna_massacre>.
+
+ 
+<event/bologna_massacre>
+
+    	a event:Event;
+    	event:atTime "1980-08-02"^^xsd:dateTime;
+    	event:atPlace gn:3181926;
+    	event:involvedAgent <person/valerio_fioravanti>;
+    	foaf:isPrimaryTopicOf <object/movie>;
+    	foaf:isPrimaryTopicOf <object/song>;
+    	dbo:victim <event/victims>;
+    	crm:P62_is_depicted_by <object/video>;
+    	crm:P67_is_referred_to_by <http://www.worldcat.org/oclc/1141813860>;
+    	ep-plan:isStepOf <https://it.wikipedia.org/wiki/Strategia_della_tensione_in_Italia>;
+    	foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bologna_massacre>;
+    	dbo:causedBy <concept/right_wing_terrorism>.
+
+
+<concept/right_wing_terrorism>
+
+	a skos:Concept;
+	dcterms:subject "Criminal association of neo-fascist/extreme right organization"^^xsd:string; 
+	dcterms:spatial gn:3175395;
+	dcterms:temporal "Anni di piombo"^^xsd:string;
+	skos:broader <https://id.loc.gov/authorities/subjects/sh85134112>;
+	ep-plan:isRationaleOf "Strategy of tension";
+	dbo:synonym "Far-right Terrorism"^^xsd:string;
+	foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Right-wing_terrorism>;
+	foaf:isPrimaryTopicOf <object/movie>.
+  
+
+<object/movie>
+
+	a nmm:Movie;
+	dcterms:language <http://d-nb.info/gnd/4114056-4>;
+	dbo:releaseLocation gn:3175395;
+	schema:datePublished “2014-05-29”^^xsd:dateTime;
+	oad:isProducedBy "Molteni, G."^^xsd:string, 
+  			 "Maurizio, D.S."^^xsd:string;
+	crm:P102_has_title "2 Agosto 1980... I giorni della collera"^^xsd:string;
+	foaf:isPrimaryTopicOf <https://www.imdb.com/title/tt3453600/>;
+	foaf:isPrimaryTopicOf <http://www.worldcat.org/oclc/948541672>;
+	foaf:topic <person/valerio_fioravanti>.
+	
+ 
+<person/valerio_fioravanti>
+
+    	a foaf:Person;
+    	foaf:givenName "Valerio"^^xsd:string;
+    	foaf:familyName "Fioravanti"^^xsd:string;
+    	foaf:gender "Male"^^xsd:string;
+    	foaf:topic_interest "Neo-Fascism";
+    	crm:P107_is_current_or_former_member_of viaf:286240633; #NAR
+    	foaf:pastProject <https://id.loc.gov/authorities/subjects/sh85000744>; #actor of cinema and tv
+    	foaf:isPrimaryTopicOf <http://www.worldcat.org/oclc/876611753>; #biography
+    	ep-plan:isResponsibleAgentOf "Strategy of tension";
+    	owl:sameAs viaf:266077830;
+    	crm:P129_is_Subject_Of <object/judgment>.
+
+ 
+<object/judgment>
+
+    	a dbo:Document
+    	dcterms:creator viaf:294906222;
+    	schema:datePublished "1995-11-23"^^xsd:dateTime;
+    	dbo:releaseLocation gn:3175395;
+    	crm:P129_is_about viaf:50964750;
+    	foaf:isPrimaryTopicOf <https://sol.unibo.it/SebinaOpac/resource/strage-di-bologna-del-281980-sentenza-23-novembre-1995/UBO6149442>;
+    	frbr:producer <entity/association>.
+
+ 
+<entity/association>
+
+    	a frbr:ResponsibleEntity;
+    	eac-cpf:named "Associazione tra i familiari delle vittime della strage alla stazione di Bologna del 2 agosto 1980",
+    		  	"Associazione tra i familiari delle vittime del 2 Agosto";
+    	eac-cpf:existDate "1981-06-01"^^xsd:dateTime;
+    	eac-cpf:hasPlace gn:7670502; 
+   	 eac-cpf:isDescribedBy <https://www.stragi.it/associazione>.
+
+
+
+
+
+
+
+
+
+
+
+
+
