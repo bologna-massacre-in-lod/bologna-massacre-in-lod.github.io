@@ -2146,15 +2146,15 @@ input, select, textarea {
   		height: auto;
 	}
 
-/* image container for the zoom buttone */
+/* image container for the zoom buttons */
 
 	.img-container {
 	  position: relative;
 	  overflow: hidden;
 	  margin:0;
 	  padding:0;
-	  height: 600px;
-	  width: 80%;
+/*	  height: 600px;
+	  width: 80%;*/
 	  overflow: auto;
 	  -webkit-overflow-scrolling: touch;
 	  overflow-x: auto;
@@ -2180,8 +2180,8 @@ input, select, textarea {
 	.img-magnifier-glass {
 	  position: absolute;
 	  border: 3px solid #000;
-	  /*border-radius: 50%;
-*/	  cursor: none;
+	  border-radius: 50%;
+	  cursor: none;
 	  /*Set the size of the magnifier glass:*/
 	  width: 250px;
 	  height: 250px;
