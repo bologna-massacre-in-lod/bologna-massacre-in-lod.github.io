@@ -1,21 +1,21 @@
 @base <https://bologna-massacre-in-lod.github.io/>.
 
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
-@prefix dbo <http://mappings.dbpedia.org/server/ontology/classes/>.
-@prefix dcterms <http://purl.org/dc/terms/>.
-@prefix eac-cpf <http://culturalis.org/eac-cpf/>.
-@prefix ep-plan <https://trustlens.github.io/EP-PLAN/ >.
-@prefix event <http://motools.sourceforge.net/event/>.
+@prefix dbo: <http://mappings.dbpedia.org/server/ontology/classes/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix eac-cpf: <http://culturalis.org/eac-cpf/>.
+@prefix ep-plan: <https://trustlens.github.io/EP-PLAN/>.
+@prefix event: <http://motools.sourceforge.net/event/>.
 @prefix fabio: <http://purl.org/spar/fabio>.
 @prefix foaf: <//xmlns.com/foaf/0.1/>.
-@prefix frbr <https://vocab.org/frbr/core>.
-@prefix gn <https://www.geonames.org/>.
-@prefix nmm <https://www.semanticdesktop.org/ontologies/2009/02/19/nmm/>.
-@prefix oad <http://culturalis.org/oad/#>.
-@prefix owl <http://www.w3.org/2002/07/owl#>.
+@prefix frbr: <https://vocab.org/frbr/core>.
+@prefix gn: <https://www.geonames.org/>.
+@prefix nmm: <https://www.semanticdesktop.org/ontologies/2009/02/19/nmm/>.
+@prefix oad: <http://culturalis.org/oad/#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix schema: <http://schema.org/>.
 @prefix skos: <http://www.w3.org/2008/05/skos#>.
-@prefix viaf <https://viaf.org/viaf/>.
+@prefix viaf: <https://viaf.org/viaf/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
 
@@ -65,7 +65,7 @@
 	a nmm:Movie;
 	dcterms:language <http://d-nb.info/gnd/4114056-4>;
 	dbo:releaseLocation gn:3175395;
-	schema:datePublished “2014-05-29”^^xsd:dateTime;
+	schema:datePublished "2014-05-29"^^xsd:dateTime;
 	oad:isProducedBy "Molteni, G."^^xsd:string, 
   			 "Maurizio, D.S."^^xsd:string;
 	crm:P102_has_title "2 Agosto 1980... I giorni della collera"^^xsd:string;
@@ -91,7 +91,7 @@
  
 <object/judgment>
 
-    	a dbo:Document
+    	a dbo:Document;
     	dcterms:creator viaf:294906222;
     	schema:datePublished "1995-11-23"^^xsd:dateTime;
     	dbo:releaseLocation gn:3175395;
