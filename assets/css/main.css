@@ -2012,12 +2012,12 @@ input, select, textarea {
 
 	.box-rdf {
 		height: 500px;
-		width: 100%;
+
 	}
 
 	.box-rdf script {
 		height: 500px;
-		width: 100%;
+
 	}
 
 /* Icon */
@@ -2172,8 +2172,7 @@ input, select, textarea {
 	}
 
 	.img-container img {
-		width: 100%;
-		height: auto;
+		width: 500px;
 	 }
 
 /* Magnifier lens for conceptual */
