@@ -2209,7 +2209,7 @@ input, select, textarea {
 	  height: auto;
 	}
 
-	.img-magnifier-glass {
+	.img-magnifier-glass-rdf {
 	  position: absolute;
 	  border: 1px solid #000;
 	  cursor: none;
