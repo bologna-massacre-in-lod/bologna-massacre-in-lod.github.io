@@ -91,21 +91,21 @@ function zoomout() {
 
 /* Zoom in and Zoom out buttons for rdf image graph */
 
-function zoomin() {
+function zoominn() {
   var myImg = document.getElementById("img-graph");
   var currWidth = myImg.clientWidth;
   if (currWidth == 2500) return false;
   else {
-    myImg.style.width = (currWidth + 100) + "px";
+    myImg.style.width = (currWidth + 200) + "px";
   }
 }
 
-function zoomout() {
+function zoomoutt() {
   var myImg = document.getElementById("img-graph");
   var currWidth = myImg.clientWidth;
   if (currWidth == 100) return false;
   else {
-    myImg.style.width = (currWidth - 100) + "px";
+    myImg.style.width = (currWidth - 200) + "px";
   }
 }
 
