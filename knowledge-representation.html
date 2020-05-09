@@ -514,10 +514,11 @@
 
 								<!-- visualizzazione grafo rdf -->
 								<h5><a id="visual">RDF graph visual representation</a></h5>
-								<div class="img-magnifier-container">
+								<div class="img-container">
 									<img src="images/rdf-grapher.png" alt="RDF graph" id="img-graph">
 								</div>
-
+								<button type="button" onclick="zoomin()">Zoom In</button>
+								<button type="button" onclick="zoomout()">Zoom Out</button>
 
 							</div>
 						</section> <!-- chiudo la sezione 6 -->
@@ -543,10 +544,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-				/* Execute the magnify function by specifying the id of the image and the strenght of the magnifier glass: */
-				magnify("img-graph", 4); 				
-			</script>
 
 	</body>
 </html>

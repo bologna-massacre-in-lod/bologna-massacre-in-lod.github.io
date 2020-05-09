@@ -83,11 +83,9 @@
 				<section class="wrapper style5">
 					<div class="inner">
 						<h3>CONCEPTUAL MODEL</h3>
-						<div class="img-container">
+						<div class="img-magnifier-container">
 							<img src="images/first_conceptual.png" alt="Conceptual Model" id="conc">
 						</div>
-						<button type="button" onclick="zoomin()">Zoom In</button>
-						<button type="button" onclick="zoomout()">Zoom Out</button>
 
 				
 					</div> <!-- chiudo il div inner -->
@@ -114,7 +112,10 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			
+			<script>
+				/* Execute the magnify function by specifying the id of the image and the strenght of the magnifier glass: */
+				magnify("conc", 2); 				
+			</script>
         
 
 

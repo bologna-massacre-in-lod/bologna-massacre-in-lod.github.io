@@ -69,10 +69,10 @@ function magnify(imgID, zoom) {
 /* /Magnify lens functions */
 
 
-/* Zoom in and Zoom out buttons */
+/* Zoom in and Zoom out buttons for theoretical */
 
 function zoomin() {
-  var myImg = document.getElementById("conc");
+  var myImg = document.getElementById("theoretical");
   var currWidth = myImg.clientWidth;
   if (currWidth == 2500) return false;
   else {
@@ -81,7 +81,27 @@ function zoomin() {
 }
 
 function zoomout() {
-  var myImg = document.getElementById("conc");
+  var myImg = document.getElementById("theoretical");
+  var currWidth = myImg.clientWidth;
+  if (currWidth == 100) return false;
+  else {
+    myImg.style.width = (currWidth - 100) + "px";
+  }
+}
+
+/* Zoom in and Zoom out buttons for rdf image graph */
+
+function zoomin() {
+  var myImg = document.getElementById("img-graph");
+  var currWidth = myImg.clientWidth;
+  if (currWidth == 2500) return false;
+  else {
+    myImg.style.width = (currWidth + 100) + "px";
+  }
+}
+
+function zoomout() {
+  var myImg = document.getElementById("img-graph");
   var currWidth = myImg.clientWidth;
   if (currWidth == 100) return false;
   else {
