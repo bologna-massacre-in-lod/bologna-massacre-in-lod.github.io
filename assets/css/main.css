@@ -4213,7 +4213,7 @@ input, select, textarea {
 	/*drop-down*/
 
 .dropdown:hover .dropbtn {
-  background-color: grey;
+  background-color: #bfbfb5;
 
  }
 
@@ -4252,7 +4252,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-	background-color: grey;
+	background-color: #bfbfb5;
 	opacity: 0.8;
 	min-width: 100%;
   
