@@ -2796,6 +2796,14 @@ input, select, textarea {
 			width: 60%;
 		}
 
+		.spotlight .content h2 {
+			color: #000000 !important; 
+		}
+
+		.spotlight .content p b {
+			color: #000000 !important;
+		}
+
 		.spotlight:nth-child(2n) {
 			-moz-flex-direction: row-reverse;
 			-webkit-flex-direction: row-reverse;
