@@ -96,7 +96,7 @@ function zoominn() {
   var currWidth = myImg.clientWidth;
   if (currWidth == 2500) return false;
   else {
-    myImg.style.width = (currWidth + 200) + "px";
+    myImg.style.width = (currWidth + 400) + "px";
   }
 }
 
@@ -105,7 +105,7 @@ function zoomoutt() {
   var currWidth = myImg.clientWidth;
   if (currWidth == 100) return false;
   else {
-    myImg.style.width = (currWidth - 200) + "px";
+    myImg.style.width = (currWidth - 400) + "px";
   }
 }
 
