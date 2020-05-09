@@ -81,7 +81,7 @@ function zoomin() {
 }
 
 function zoomout() {
-  var myImg = document.getElementById("cconc");
+  var myImg = document.getElementById("conc");
   var currWidth = myImg.clientWidth;
   if (currWidth == 100) return false;
   else {
