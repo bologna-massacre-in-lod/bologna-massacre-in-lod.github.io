@@ -504,13 +504,30 @@
 									<li><a href="rdf.ttl" class="button icon solid fa-download">Download</a></li>
 								</ul>
 
-								<!-- inserire coso rdf // oppure usa "preformatted"-->
-									<script src="https://gist.github.com/bologna-massacre-in-lod/f3226c51adbf91af75a1c9e05eb56133.js"></script>
+								<!-- gist rdf -->
+								<div class="box alt">
+									<div class="row gtr-50 gtr-uniform">
+										<div class="col-8">
+											<script src="https://gist.github.com/bologna-massacre-in-lod/f3226c51adbf91af75a1c9e05eb56133.js"></script>
+										</div>
+										<div class="col-3">
+											<p>or download the RDF file</p>
+											<ul class="actions">
+												<li><a href="rdf.ttl" class="button icon solid fa-download">Download</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+								<br>
+								<br>
 
 								<!-- visualizzazione grafo rdf -->
-								<span class="immagine">
-									<img src="images/rdf-grapher.png" alt="RDF graph">
-								</span>
+								<div class="img-magnifier-container">
+									<!-- <span class="immagine"> -->
+										<img src="images/rdf-grapher.png" alt="RDF graph" id="rdf">
+									</span>
+								</div>
 
 
 							</div>
@@ -537,6 +554,10 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				/* Execute the magnify function by specifying the id of the image and the strenght of the magnifier glass: */
+				magnify("rdf", 2); 				
+			</script>
 
 	</body>
 </html>

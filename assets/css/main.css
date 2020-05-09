@@ -347,6 +347,7 @@ input, select, textarea {
 
 		.row > .col-3 {
 			width: 25%;
+			margin-left: 2.5em;
 		}
 
 		.row > .off-3 {
@@ -2144,6 +2145,29 @@ input, select, textarea {
 		max-width: 100%;
   		height: auto;
 	}
+
+/* Magnifier lens */
+	* {box-sizing: border-box;}
+
+	.img-magnifier-container {
+	  position: relative;
+	}
+
+	/* .img-magnifier-container img {
+	  width: 100%;
+	  height: auto;
+	} */
+
+	.img-magnifier-glass {
+	  position: absolute;
+	  border: 3px solid #000;
+	  border-radius: 50%;
+	  cursor: none;
+	  /*Set the size of the magnifier glass:*/
+	  width: 250px;
+	  height: 250px;
+	}
+
 
 /* List */
 
