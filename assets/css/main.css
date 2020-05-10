@@ -4197,11 +4197,8 @@ input, select, textarea {
  }
 
  .about:hover {
-
- background-color: grey;
-
-
- 	}
+ 	background-color: #bfbfb5;
+}
 
 
 
